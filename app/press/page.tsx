@@ -13,51 +13,7 @@ export default function Home() {
       <div className="w-full h-full lg:pt-[7rem] pt-[6rem] p-3 grid grid-cols-1 gap-4">
         <Section1 />
         <Section2 />
-        <p>aljlsjflj</p>
-        <p>sdljsdkfj</p>
-        <p>sdkjldsfkjldsf</p>
-        <p>aljlsjflj</p>
-        <p>sdljsdkfj</p>
-        <p>sdkjldsfkjldsf</p>
-        <p>aljlsjflj</p>
-        <p>sdljsdkfj</p>
-        <p>sdkjldsfkjldsf</p>
-        <p>aljlsjflj</p>
-        <p>sdljsdkfj</p>
-        <p>sdkjldsfkjldsf</p>
-        <p>aljlsjflj</p>
-        <p>sdljsdkfj</p>
-        <p>sdkjldsfkjldsf</p>
-        <p>aljlsjflj</p>
-        <p>sdljsdkfj</p>
-        <p>sdkjldsfkjldsf</p>
-        <p>aljlsjflj</p>
-        <p>sdljsdkfj</p>
-        <p>sdkjldsfkjldsf</p>
-        <p>aljlsjflj</p>
-        <p>sdljsdkfj</p>
-        <p>sdkjldsfkjldsf</p>
-        <p>aljlsjflj</p>
-        <p>sdljsdkfj</p>
-        <p>sdkjldsfkjldsf</p>
-        <p>aljlsjflj</p>
-        <p>sdljsdkfj</p>
-        <p>sdkjldsfkjldsf</p>
-        <p>aljlsjflj</p>
-        <p>sdljsdkfj</p>
-        <p>sdkjldsfkjldsf</p>
-        <p>aljlsjflj</p>
-        <p>sdljsdkfj</p>
-        <p>sdkjldsfkjldsf</p>
-        <p>aljlsjflj</p>
-        <p>sdljsdkfj</p>
-        <p>sdkjldsfkjldsf</p>
-        <p>aljlsjflj</p>
-        <p>sdljsdkfj</p>
-        <p>sdkjldsfkjldsf</p>
-        <p>aljlsjflj</p>
-        <p>sdljsdkfj</p>
-        <p>sdkjldsfkjldsf</p>
+        
       </div>
     </div>
   );

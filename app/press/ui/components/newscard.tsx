@@ -20,14 +20,12 @@ const openSans = Open_Sans({ subsets: ['latin'] });
 // Use the additional props in the function
 function NewsCard({ title, link_image, link }: NewsCardProps) {
     return (
-        // <div className='bg-[#f3f5d8] lg:bg-gradient-to-r lg:from-[#f3f5d8] lg:from-30% lg:to-[#dc7030] lg:to-70% lg:w-[85%] md:w-[85%] sm:w-[95%] w-[95%] min-h-96 rounded-xl border border-[#b23727] justify-self-center flex lg:flex-row flex-col'>
-        <div className='newsCardDiv'>
-            <a href={link} className='newsCard'>
-                <img src={link_image} alt=""  className='newsImage'/>
+        <a href={link} className='newsCard'>
+            <div className='newsCardSection'>
+                <img src={link_image} alt="" className='newsImage' />
                 <p className='newsTitle'>{title}</p>
-            </a>
-        </div>
-        // </div>
+            </div>
+        </a>
     );
 }
 

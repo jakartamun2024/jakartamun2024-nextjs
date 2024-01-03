@@ -1,17 +1,25 @@
 
-.newsCard {
+
+.newsCard{
+    box-shadow: 0 0 1px rgba(254, 4, 4, 0.1); 
+    border: 1px solid red;
+    border-radius: 2px;
+    background-color: #f3f5d8;
+    color: #b23727;
+    margin: 5px;
+}
+.newsCardSection {
     display: flex;
     flex-direction: row;
-    box-shadow: 0 0 1000px rgba(254, 4, 4, 0.1); 
-    border: 1px solid red;
+    justify-content: center;
+
     justify-content:center ;
-    /* padding: 5px; */
 }
 
 .newsImage{
-    flex-grow: 1;
     object-fit: cover;
+    width: 300px;
 }
 .newsTitle{
-    flex-grow: 4;
+    flex: 4;
 }

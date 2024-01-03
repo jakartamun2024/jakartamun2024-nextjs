@@ -5,6 +5,7 @@ import Image from 'next/image';
 import RegisterDropdown from '../../../ui/navbar/registrationdropdown';
 import News from './news';
 import NewsCard from '../components/newscard';
+import './section1.css';
 
 const bodoni = Bodoni_Moda({ weight: "500", subsets: ["latin"] })
 const dmSerif = DM_Serif_Text({ subsets: ['latin'], weight: '400' })
@@ -14,7 +15,7 @@ const openSans = Open_Sans({ subsets: ['latin'] })
 interface PressItem {
   image_link: string;
   title: string;
-  link:string;
+  link: string;
   // Add other properties if applicable
 }
 
@@ -57,15 +58,18 @@ function Section1() {
 
 
   return (
-    <div className='bg-[#f3f5d8] lg:bg-gradient-to-r lg:from-[#f3f5d8] lg:from-30% lg:to-[#dc7030] lg:to-70% lg:w-[85%] md:w-[85%] sm:w-[95%] w-[95%] min-h-96 rounded-xl border border-[#b23727] justify-self-center flex lg:flex-row flex-col'>
-      {/* <p className={`text-[#b23727] ${openSans.className} text-md pt-3`}> kontol</p> */}
-      {data ? (
-        data.map((item: PressItem, index: number) => (
-          <NewsCard  link={item.link} link_image={item.image_link} title={item.title}/>
-        ))
-      ) : (
-        <main>Loading...</main>
-      )}
+<div className='bg-[#f3f5d8] lg:bg-gradient-to-r lg:from-[#f3f5d8] lg:from-30% lg:to-[#dc7030] lg:to-70% lg:w-[85%] md:w-[85%] sm:w-[95%] w-[95%] min-h-96 rounded-xl border border-[#b23727] justify-self-center flex lg:flex-row flex-col'>      {/* <p className={`text-[#b23727] ${openSans.className} text-md pt-3`}> kontol</p> */}
+      <div className='container'>
+        <ul className='listNews'>
+          {data ? (
+            data.map((item: PressItem, index: number) => (
+                  <NewsCard link={item.link} link_image={item.image_link} title={item.title} />
+            ))
+          ) : (
+            <main>Loading...</main>
+          )}
+        </ul>
+      </div>
     </div>
   )
 }
