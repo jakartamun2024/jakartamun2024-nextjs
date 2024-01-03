@@ -1,0 +1,17 @@
+
+.newsCard {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 1000px rgba(254, 4, 4, 0.1); 
+    border: 1px solid red;
+    justify-content:center ;
+    /* padding: 5px; */
+}
+
+.newsImage{
+    flex-grow: 1;
+    object-fit: cover;
+}
+.newsTitle{
+    flex-grow: 4;
+}

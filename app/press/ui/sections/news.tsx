@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
+import NewsCard from "../components/newscard";
+import './news.css';
 
 interface PressItem {
   image_link: string;
   title: string;
+  link:string;
   // Add other properties if applicable
 }
 
@@ -41,15 +44,16 @@ export default function News() {
   }, []);
 
   return (
-    <div>
+    <div className="newsContainer">
       {data ? (
         data.map((item: PressItem, index: number) => (
-          <div key={index}>
-            <img src={item.image_link} alt={`Image ${index}`} />
-            <a href={item.title} target="_blank" rel="noopener noreferrer">
-              {item.title}
-            </a>
-          </div>
+          // <div key={index}>
+          //   <img src={item.image_link} alt={`Image ${index}`} />
+          //   <a href={item.title} target="_blank" rel="noopener noreferrer">
+          //     {item.title}
+          //   </a>
+          // </div>
+          <NewsCard  link={item.link} link_image={item.image_link} title={item.title}/>
         ))
       ) : (
         <main>Loading...</main>
