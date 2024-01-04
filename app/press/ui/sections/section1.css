@@ -5,12 +5,6 @@
     width: 100%;
 } */
 
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .listNews{
     display: flex;
     flex-direction: row;
@@ -32,7 +26,7 @@
     justify-content: flex-start;
     width: 95%;
 }
-@media (min-width: 640px) {
+@media (min-width: 600px) {
     .section1 {
       width: 85%;
       background: linear-gradient(to right, #f3f5d8 30%, #dc7030 70%);
