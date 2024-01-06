@@ -1,0 +1,89 @@
+
+
+.App {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+table {
+    border: 1px solid black;
+    width: 98%;
+    height: 200px;
+    background-color: white;
+}
+ 
+.approved{
+    background-color: green;
+    color: white;
+}
+.notApproved{
+    background-color: red;
+    color: white;
+}
+.pending{
+    background-color: yellow;
+}
+
+
+a{
+    display: block;
+}
+
+a :hover{
+
+}
+
+th {
+    border: 2px solid black;
+}
+ 
+td {
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+.section1{
+    background-color: #f3f5d8;
+    width: 95%;
+    /* min-height: 96px; */
+    border: 1px solid #b23727;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 95%;
+}
+@media (min-width: 600px) {
+    .section1 {
+      width: 85%;
+      background: linear-gradient(to right, #f3f5d8 30%, #dc7030 70%);
+    }
+  }
+
+  /* ==== table scrolling ==== */
+  .tableFixHead {
+    overflow: auto;
+    height: 85vh;
+    width: 98%;
+    padding: 2px;
+  }
+  .tableFixHead thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th,
+  td {
+    padding: 8px 16px;
+  }
+  th {
+    background: #eee;
+  }
