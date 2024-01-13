@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Bodoni_Moda } from 'next/font/google';
 import RegisterDropdown from './registrationdropdown';
 
-const bodoni = Bodoni_Moda({ weight: "500", subsets: ["latin"] })
+const bodoni = Bodoni_Moda({ weight: "500", subsets: ["latin"], display: "swap" })
 
 function NavBarCollapse(props: any) {
     return (
