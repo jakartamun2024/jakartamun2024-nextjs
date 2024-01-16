@@ -8,8 +8,8 @@ const bodoni = Bodoni_Moda({ weight: "500", subsets: ["latin"], display: "swap" 
 function CouncilCard({ name, description }: { name: string, description: string }) {
 	const { isOpen, onOpen, onOpenChange } = useDisclosure();
 	return (
-		<div>
-			<div className='bg-[#f3f5d8] rounded-lg lg:w-36 md:w-36 w-[100%] p-4 border border-[#b23727] shadow-md text-wrap break-words min-h-52 grid grid-cols-1 items-start hover:scale-105 cursor-pointer' onClick={onOpen}>
+		<div className='hover:scale-105'>
+			<div className='bg-gradient-to-br from-[#F36A9D] via-[#FFD0CF] via-30% to-[#FAD489] rounded-xl lg:w-36 md:w-36 w-[100%] p-4 shadow-medium text-wrap break-words min-h-52 grid grid-cols-1 items-start cursor-pointer' onClick={onOpen}>
 				<Image src="/un-logo.png" alt='monas' quality={100} width={120} height={100} className='h-auto' />
 				<p className={`text-[#b23727] ${bodoni.className} text-md mt-3 text-center`}>{name}</p>
 
