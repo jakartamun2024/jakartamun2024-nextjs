@@ -7,7 +7,7 @@ import { Bodoni_Moda } from 'next/font/google';
 import { tabs } from './constant';
 import RegisterDropdown from './registrationdropdown';
 
-const bodoni = Bodoni_Moda({ weight: "500", subsets: ["latin"] })
+const bodoni = Bodoni_Moda({ weight: "500", subsets: ["latin"], display: "swap" })
 
 function NavBarBody(props: any) {
     return (

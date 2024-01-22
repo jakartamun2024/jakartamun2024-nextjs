@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import NavBar from "../ui/navbar/navbar";
+import NavBar from "../components/navbar/navbar";
 import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 import Section1 from "./sections/section1";
 
-const RegisterPage = () => {
+const RegisterPageDelegate = () => {
   return (
     <div>
       <nav className="w-full top-0 fixed z-50">
@@ -17,4 +17,4 @@ const RegisterPage = () => {
   );
 };
 
-export default RegisterPage;
+export default RegisterPageDelegate;
