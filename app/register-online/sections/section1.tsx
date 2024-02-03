@@ -4,6 +4,7 @@ import { Bodoni_Moda } from "next/font/google";
 import Image from "next/image";
 import RegisterDropdown from "../../components/navbar/registrationdropdown";
 import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
+import { Helmet } from "react-helmet";
 
 const bodoni = Bodoni_Moda({ weight: "500", subsets: ["latin"] });
 const dmSerif = DM_Serif_Text({ subsets: ["latin"], weight: "400" });
@@ -19,6 +20,20 @@ function Section1() {
         >
           Loading…
         </iframe>
+        {/* <Helmet>
+          <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+        </Helmet>
+        <div
+          id="retainable-rss-embed"
+          data-rss="https://medium.com/feed/retainable,
+https://medium.com/feed/vue-mastery"
+          data-maxcols="3"
+          data-layout="grid"
+          data-poststyle="inline"
+          data-readmore="Read the rest"
+          data-buttonclass="btn btn-primary"
+          data-offset="-100"
+        ></div> */}
       </div>
     </div>
   );

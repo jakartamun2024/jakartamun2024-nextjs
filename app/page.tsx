@@ -1,11 +1,11 @@
-'use client';
-import Image from 'next/image';
-import NavBar from './components/navbar/navbar';
-import Section1 from './components/sections/1_hero/section1';
-import Section2 from './components/sections/2_councils/section2';
-import Footer from './components/footer/footer';
-import Section3 from './components/sections/3_speakers/section3';
-import Section4 from './components/sections/4_sponsors/section4';
+"use client";
+import Image from "next/image";
+import NavBar from "./components/navbar/navbar";
+import Section1 from "./components/sections/1_hero/section1";
+import Section2 from "./components/sections/2_councils/section2";
+import Footer from "./components/footer/footer";
+import Section3 from "./components/sections/3_speakers/section3";
+import Section4 from "./components/sections/4_sponsors/section4";
 
 export default function Home() {
   return (

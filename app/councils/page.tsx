@@ -1,10 +1,11 @@
 "use client";
-import Image from "next/image";
+import React from "react";
 import NavBar from "../components/navbar/navbar";
-import Section1 from "./ui/sections/section1";
-// import Section2 from "./ui/sections/section2";
+import Footer from "../components/footer/footer";
+import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
+import Section1 from "./components/sections/section1";
 
-export default function Home() {
+const CouncilsPage = () => {
   return (
     <div>
       <nav className="w-full top-0 fixed z-50">
@@ -12,8 +13,10 @@ export default function Home() {
       </nav>
       <div className="w-full h-full lg:pt-[7rem] pt-[6rem] p-3 grid grid-cols-1 gap-4">
         <Section1 />
-        {/* <Section2 /> */}
       </div>
+      <Footer />
     </div>
   );
-}
+};
+
+export default CouncilsPage;
