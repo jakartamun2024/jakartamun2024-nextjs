@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { links } from './constant';
 import Link from 'next/link';
+
 function Footer() {
     return (
         <div className='grid lg:grid-cols-5 grid-cols-2  lg:justify-self-center bg-[#dc7030] p-3 text-white'>

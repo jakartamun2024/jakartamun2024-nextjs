@@ -2,7 +2,7 @@ import { useState } from "react";
 import NavBarBody from "./navbarbody";
 import NavBarCollapse from "./navbarcollapse";
 
-function NavBar() {
+function NavBar(props: any) {
   const [navbarState, setNavbarState] = useState({
     isCollapsed: true,
   });
@@ -16,7 +16,7 @@ function NavBar() {
 
   return (
     <div className="fixed w-full transition-all duration-300 ease-in-out backdrop-blur-md z-50 justify-between items-center py-2 lg:pt-3 md:pt-3 sm:pt-3 pt-3 lg:px-7 ms:px-4 sm:px-3 px-3">
-      <NavBarBody {...navbarState} handleCollapse={handleCollapse} />
+      <NavBarBody {...navbarState} handleCollapse={handleCollapse} grandRef={props.grandRef} aboutRef={props.aboutRef} />
       <NavBarCollapse {...navbarState} handleCollapse={handleCollapse} />
     </div>
   );

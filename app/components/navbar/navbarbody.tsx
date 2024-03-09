@@ -6,10 +6,13 @@ import Image from 'next/image';
 import { Bodoni_Moda } from 'next/font/google';
 import { tabs } from './constant';
 import RegisterDropdown from './registrationdropdown';
+import AboutDropdown from './aboutdropdown';
 
 const bodoni = Bodoni_Moda({ weight: "500", subsets: ["latin"], display: "swap" })
 
 function NavBarBody(props: any) {
+
+
     return (
         <div className={`w-full flex justify-between items-center z-50 ${bodoni.className}`}>
             <Link href={'/'}>
@@ -30,6 +33,11 @@ function NavBarBody(props: any) {
             </Link>
 
             <div className="hidden lg:flex text-white gap-12">
+                <div className="flex">
+                    <div className='my-auto'>
+                        <AboutDropdown aboutRef={props.aboutRef} grandRef={props.grandRef} />
+                    </div>
+                </div>
                 {tabs.map(({ url, label }, index) => (
                     <Link href={url} key={index} className='flex'>
                         <p className="text-lg no-underline hover:scale-105 cursor-pointer my-auto">
@@ -54,6 +62,7 @@ function NavBarBody(props: any) {
 
         </div>
     )
+
 }
 
 export default NavBarBody
