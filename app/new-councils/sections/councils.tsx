@@ -10,12 +10,12 @@ const poppins = Poppins({
 export default function CouncilsList() {
   return (
     <div className={`w-full ${poppins.className} bg-black bg-opacity-50`}>
-      <div className="flex flex-col w-full px-3 md:w-2/3 md:p-0 mx-auto divide-y-2 divide-white gap-5">
+      <div className="flex flex-col w-full px-3 md:w-2/3 md:p-0 mx-auto divide-y-2 divide-white gap-16 ">
         <h2 className="text-5xl text-center font-bold pt-10">
           Offline Councils
         </h2>
         {/* ====== UNICEF ======= */}
-        <div className="pt-5">
+        <div className="pt-16">
           <h1 className="text-3xl font-bold">
             United Nations Children's Fund (
             <span className="text-[#DF6A26]">UNICEF</span>)
@@ -93,7 +93,7 @@ export default function CouncilsList() {
         </div>
         {/* ====== UNICEF ====== */}
         {/* ====== UNWTO ====== */}
-        <div className="pt-5">
+        <div className="pt-16">
           <h1 className="text-3xl font-bold text-end">
             United Nations World Tourism Organization (
             <span className="text-[#DF6A26]">UNWTO</span>)
@@ -168,7 +168,7 @@ export default function CouncilsList() {
         </div>
         {/* ====== UNWTO ====== */}
         {/* ====== UEFA ====== */}
-        <div className="pt-5">
+        <div className="pt-16">
           <h1 className="text-3xl font-bold">
             Union of European Football Association (
             <span className="text-[#DF6A26]">UEFA</span>)
@@ -238,7 +238,7 @@ export default function CouncilsList() {
         </div>
         {/* ====== UEFA ====== */}
         {/* ====== WWF ====== */}
-        <div className="pt-5">
+        <div className="pt-16">
           <h1 className="text-3xl font-bold text-end">
             World Water Forum (<span className="text-[#DF6A26]">WWF</span>)
           </h1>
@@ -305,7 +305,7 @@ export default function CouncilsList() {
         </div>
         {/* ====== WWF ====== */}
         {/* ====== HCC ====== */}
-        <div className="pt-5">
+        <div className="pt-16">
           <h1 className="text-3xl font-bold">
             Historical Crisis Council (
             <span className="text-[#DF6A26]">HCC</span>)
@@ -345,8 +345,8 @@ export default function CouncilsList() {
               />
             </div>
           </div>
-          <p className="text-justify">
-            <span className="text-lg font-semibold underline underline-offset-4 py-1">
+          <p className="text-justify pt-3">
+            <span className="text-lg font-semibold underline underline-offset-4">
               Dewan Nasional Description
             </span>
             <br />
@@ -392,7 +392,7 @@ export default function CouncilsList() {
         </div>
         {/* ====== HCC ====== */}
         {/* ====== UNSC ====== */}
-        <div className="pt-5">
+        <div className="pt-16">
           <h1 className="text-3xl font-bold text-end">
             United Nations Security Council (
             <span className="text-[#DF6A26]">UNSC</span>)
@@ -468,7 +468,7 @@ export default function CouncilsList() {
         </div>
         {/* ====== UNSC ====== */}
         {/* ====== PRESS CORPS ====== */}
-        <div className="pt-5">
+        <div className="pt-16">
           <h1 className="text-3xl font-bold">Press Corps</h1>
           <h2 className="text-2xl font-semibold pb-2">
             Offline - Single Delegate
@@ -500,17 +500,17 @@ export default function CouncilsList() {
           </div>
         </div>
         {/* ====== PRESS CORPS ====== */}
-        <h2 className="text-5xl text-center font-bold pt-10 pb-5">
+        <h2 className="text-5xl text-center font-bold pt-16">
           Online Councils
         </h2>
         {/* ====== ILO ====== */}
-        <div className="pt-5">
+        <div className="pt-16">
           <h1 className="text-3xl font-bold text-end">
             International Labour Organization (
             <span className="text-[#DF6A26]">ILO</span>)
           </h1>
           <h2 className="text-2xl font-semibold text-end pb-2">
-            Online - Beginner - Single Delegate
+            Council Type: Beginner - Single Delegate
           </h2>
           <div className="flex flex-col-reverse md:flex-row-reverse items-center">
             <p className="basis-2/3 text-justify">
@@ -552,27 +552,31 @@ export default function CouncilsList() {
         </div>
         {/* ====== ILO ====== */}
         {/* ====== UNHRC ====== */}
-        <div className="pt-5">
+        <div className="pt-16">
           <h1 className="text-3xl font-bold">
             United Nations Human Rights Council (
             <span className="text-[#DF6A26]">UNHRC</span>)
           </h1>
           <h2 className="text-2xl font-semibold pb-2">
-            Online - Beginner - Single Delegate
+            Council Type: Beginner - Single Delegate
           </h2>
           <div className="flex flex-col-reverse md:flex-row items-center">
             <p className="basis-2/3 text-justify">
-              Established in 1949, the North Atlantic Treaty Organization (NATO)
-              is an outstanding international alliance committed to establishing
-              the collective defense and security of its Member States. The
-              Organization’s spirit is aptly reflected in Article 5 of its
-              treaty, where an act against one member is an attack against all.
-              The inner workings of NATO is embodied through its motto, Animus
-              in consulendo liber - meaning “in discussion, a free mind”,
-              highlighting the importance of consultation amongst allies. NATO's
-              primary objective is to safeguard the freedom and security of its
-              members through political and military cooperation operating under
-              the principle of consensus.
+              Replacing the United Nations Commission on Human Rights (UNCHR) in
+              2006, the United Nations Human Rights Council (UNHRC) is a body
+              under the United Nations that promotes and protects human rights
+              globally. The council is mandated to address violations of rights
+              that are outlined in the Universal Declaration of Human Rights
+              (UDHR) and the UN Charter, and to thematically engage in all human
+              rights issues. To act upon this mandate, the UNHRC is equipped
+              with special procedures—also called the Special Rapporteurs—which
+              are special teams that handle the investigation of certain issues
+              related to human rights breaches in specific territories;
+              currently, the special rapporteurs work under 45 human rights
+              themes. Aside from that, every four years, the UNHRC also conducts
+              the Universal Periodic Review, which is an assessment of member
+              states’ human rights implementation. All in all, the UNHRC assumes
+              the role of the world’s primary human rights body.
             </p>
             <div className="basis-1/3">
               <Image
@@ -613,51 +617,54 @@ export default function CouncilsList() {
             criminal justice’s spirit of fairness?
           </p>
         </div>
-        {/* ====== UEFA ====== */}
+        {/* ====== UNHRC ====== */}
         {/* ====== NATO ====== */}
-        <div className="pt-5 mb-32">
+        <div className="pt-16 mb-32">
           <h1 className="text-3xl font-bold text-end">
             North Atlantic Treaty Organization (
             <span className="text-[#DF6A26]">NATO</span>)
           </h1>
-          <h2 className="text-2xl font-semibold text-end pb-2">
-            Online - Beginner - Single Delegate
+          <h2 className="text-2xl font-medium text-end pb-5">
+            <span className="text-[#DF6A26]">Council Type</span>: Beginner -
+            Single Delegate
           </h2>
-          <div className="flex flex-col-reverse md:flex-row-reverse items-center">
-            <p className="basis-2/3 text-justify">
-              The International Labour Organization was founded in 1919 under
-              the League of Nations, making it one of the first and oldest
-              specialized agencies of the United Nations. Its mandate is to
-              promote economic and social justice through the creation of
-              international labor standards. In more than a hundred years of its
-              existence, the agency has developed 191 labor standards covering
-              various aspects of labor rights to keep up with the ever changing
-              challenges in the workplace, from technological development to
-              globalization.
-            </p>
+          <div className="">
             <div className="basis-1/3">
               <Image
                 src="/council-icon/NATO.png"
                 alt="NATO Icon"
                 height={200}
                 width={200}
-                className="mx-auto my-auto"
+                className="mx-5 my-5 float-left"
                 style={{ objectFit: "contain" }}
               />
             </div>
+            <p className="basis-2/3 text-justify">
+              Established in 1949, the North Atlantic Treaty Organization (NATO)
+              is an outstanding international alliance committed to establishing
+              the collective defense and security of its Member States. The
+              Organization’s spirit is aptly reflected in Article 5 of its
+              treaty, where an act against one member is an attack against all.
+              The inner workings of NATO is embodied through its motto, Animus
+              in consulendo liber - meaning “in discussion, a free mind”,
+              highlighting the importance of consultation amongst allies. NATO's
+              primary objective is to safeguard the freedom and security of its
+              members through political and military cooperation operating under
+              the principle of consensus. The Council of NATO, known as the
+              North Atlantic Council (NAC), serves as the organization's highest
+              decision-making body, purposed to formulate strategic decisions,
+              address emerging security challenges, and oversee the
+              implementation of NATO's objectives. Through its meetings, the
+              Organization facilitates open discussions on defense and security
+              matters, fostering collaboration and coordination to respond
+              effectively to evolving geopolitical threats.
+            </p>
           </div>
-          <p className="text-justify">
-            The Council of NATO, known as the North Atlantic Council (NAC),
-            serves as the organization's highest decision-making body, purposed
-            to formulate strategic decisions, address emerging security
-            challenges, and oversee the implementation of NATO's objectives.
-            Through its meetings, the Organization facilitates open discussions
-            on defense and security matters, fostering collaboration and
-            coordination to respond effectively to evolving geopolitical
-            threats.
-          </p>
-          <h2 className="text-2xl font-bold self-start mt-1 italic text-center py-3">
-            An International Domain?: Security Expansion in the Arctic Ocean
+          <h2 className="text-2xl font-bold self-start mt-1 text-center py-5 ">
+            <span className="text-[#DF6A26] not-italic">Topic</span>:{" "}
+            <span className="italic">
+              An International Domain?: Security Expansion in the Arctic Ocean
+            </span>
           </h2>
           <p className="text-justify">
             The Arctic region has long been targeted as an arena between
