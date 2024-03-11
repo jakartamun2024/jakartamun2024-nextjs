@@ -95,7 +95,6 @@ export default function Home() {
             </div>
             <h1
               className={`text-4xl md:text-5xl lg:text-7xl text-center text-transparent bg-clip-text bg-gradient-to-b drop-shadow-md from-white to-[#faca6b] font-extrabold mt-10`}
-              ref={grandRef}
             >
               GRAND THEME
             </h1>
@@ -191,7 +190,7 @@ export default function Home() {
               </p>
             </div>
             <h1
-              className={`text-4xl md:text-5xl lg:text-7xl text-center text-transparent bg-clip-text bg-gradient-to-b drop-shadow-md from-white to-[#faca6b] font-extrabold mt-10`}
+              className={`text-4xl md:text-5xl lg:text-7xl text-center text-transparent bg-clip-text bg-gradient-to-b drop-shadow-md from-white to-[#faca6b] font-extrabold mt-10`} ref={grandRef}
             >
               ABOUT ISAFIS
             </h1>
