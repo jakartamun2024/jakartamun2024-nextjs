@@ -25,7 +25,7 @@ export default function Home() {
             <nav className="w-full top-0 z-50">
                 <NavBar />
             </nav>
-            <div className="w-full h-screen flex items-center justify-center bg-gradient-to-b from-[#DF6A26] to-[#f55789]">
+            <div className="w-full h-screen flex items-center justify-center bg-[#DF6A26]">
                 <div>
                     <h1
                         className={`text-4xl md:text-5xl lg:text-6xl text-center text-transparent bg-clip-text bg-gradient-to-b drop-shadow-md from-white to-[#faca6b] font-extrabold m-5`}
