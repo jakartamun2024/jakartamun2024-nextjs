@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import NavBarBody from "./navbarbody";
 import NavBarCollapse from "./navbarcollapse";
