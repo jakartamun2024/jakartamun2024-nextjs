@@ -271,10 +271,10 @@ export default function CouncilsList(props: any) {
             <Image
               src="/council-icon/WWF.png"
               alt="WWF Icon"
-              height={200}
-              width={200}
+              height={150}
+              width={150}
               quality={100}
-              className="md:float-left mx-auto my-5 md:m-5"
+              className="md:float-left mx-auto my-5 md:mx-7"
               style={{ objectFit: "contain" }}
             />
           </div>
@@ -535,7 +535,7 @@ export default function CouncilsList(props: any) {
           </h2>
           <div className="">
             <Image
-              src="/council-icon/ILO.png"
+              src="/council-icon/ilo.png"
               alt="ILO Icon"
               height={200}
               width={200}
@@ -584,7 +584,7 @@ export default function CouncilsList(props: any) {
           </h2>
           <div className="">
             <Image
-              src="/council-icon/UNHRC.png"
+              src="/council-icon/unhrc.png"
               alt="UNHRC Icon"
               height={200}
               width={200}
