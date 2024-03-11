@@ -18,7 +18,7 @@ function NavBarBody(props: any) {
     <div
       className={`w-full flex justify-between items-center z-50 ${bodoni.className}`}
     >
-      <Link href={"/new-design"}>
+      <Link href={"/"}>
         <div className="lg:w-16 lg:h-16 md:w-14 md:h-14 sm:h-12 sm:w-12 h-12 w-12 relative inline-block">
           <Image src="/jmun-logo.png" alt="JMUN logo" fill />
         </div>

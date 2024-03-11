@@ -23,9 +23,9 @@ export default function Home() {
             src="/backgrounds/bhi.jpg"
             alt="Background Image of Bundaran HI"
             quality={100}
-            layout="fill"
-            objectFit="cover"
+            fill
             className="lg:hidden"
+            style={{ objectFit: "contain" }}
           />
           <div className="hidden lg:block">
             <Image
