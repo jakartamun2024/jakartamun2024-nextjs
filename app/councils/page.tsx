@@ -1,8 +1,12 @@
-"use client";
+<<<<<<<< < Temporary merge branch 1
+"use client"
 import { Poppins } from "next/font/google";
 import Image from "next/image";
 import NavBar from "../components/navbar/navbar";
 import CouncilsList from "./sections/councils";
+import { useEffect, useRef } from "react";
+import { useSearchParams } from "next/navigation";
+
 import { useRef } from "react";
 
 const poppins = Poppins({
@@ -11,6 +15,7 @@ const poppins = Poppins({
 });
 
 export default function CouncilPage() {
+<<<<<<<< < Temporary merge branch 1
   const offlineRef = useRef(null);
   const onlineRef = useRef(null);
   return (
