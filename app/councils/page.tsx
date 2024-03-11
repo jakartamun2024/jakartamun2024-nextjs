@@ -1,4 +1,3 @@
-<<<<<<<< < Temporary merge branch 1
 "use client"
 import { Poppins } from "next/font/google";
 import Image from "next/image";
@@ -7,15 +6,12 @@ import CouncilsList from "./sections/councils";
 import { useEffect, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 
-import { useRef } from "react";
-
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800", "900"],
 });
 
 export default function CouncilPage() {
-<<<<<<<< < Temporary merge branch 1
   const offlineRef = useRef(null);
   const onlineRef = useRef(null);
   return (

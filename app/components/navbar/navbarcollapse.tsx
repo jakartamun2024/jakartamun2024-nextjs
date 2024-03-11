@@ -1,12 +1,3 @@
-<<<<<<<< < Temporary merge branch 1
-import { Transition } from '@headlessui/react'
-import React from 'react'
-import { tabs } from './constant'
-import Link from 'next/link';
-import { Bodoni_Moda } from 'next/font/google';
-import RegisterDropdown from './registrationdropdown';
-import CouncilDropdown from './councildropdown';
-=========
 import { Transition } from "@headlessui/react";
 import React from "react";
 import { tabs } from "./constant";
@@ -39,28 +30,18 @@ function NavBarCollapse(props: any) {
             grandRef={props.grandRef}
           />
         </div>
+        <div className="ms-2">
+          <CouncilDropdown offlineRef={props.offlineRef} onlineRef={props.onlineRef} />
+        </div>
         {tabs.map(({ url, label }, index) => (
           <Link href={url} key={index}>
             <div className="text-white ms-2">{label}</div>
           </Link>
         ))}
-        <div className="ms-2">
-          <CouncilDropdown offlineRef={props.offlineRef} onlineRef={props.onlineRef} />
-        </div>
         <RegisterDropdown isNav={true} />
       </div>
     </Transition>
   )
-      <div className={`flex flex-col gap-4 ${poppins.className} text-m`}>
-        {tabs.map(({ url, label }, index) => (
-          <Link href={url} key={index}>
-            <div className="text-white ms-2">{label}</div>
-          </Link>
-        ))}
-        <RegisterDropdown isNav={true} />
-      </div>
-    </Transition>
-  );
 }
 
 export default NavBarCollapse;
