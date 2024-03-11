@@ -19,7 +19,7 @@ function NavBar(props: any) {
   return (
     <div className="fixed w-full transition-all duration-300 ease-in-out backdrop-blur-md z-50 justify-between items-center py-2 lg:pt-3 md:pt-3 sm:pt-3 pt-3 lg:px-7 ms:px-4 sm:px-3 px-3">
       <NavBarBody {...navbarState} handleCollapse={handleCollapse} grandRef={props.grandRef} aboutRef={props.aboutRef} />
-      <NavBarCollapse {...navbarState} handleCollapse={handleCollapse} />
+      <NavBarCollapse {...navbarState} handleCollapse={handleCollapse} grandRef={props.grandRef} aboutRef={props.aboutRef} />
     </div>
   );
 }

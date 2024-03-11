@@ -33,7 +33,7 @@ export default function AboutDropdown(props: any) {
         <div className="">
             <Menu as="div" className="relative inline-block text-left text-lg">
                 <div>
-                    <Menu.Button className="inline-flex w-full justify-center px-4 py-2 text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75">
+                    <Menu.Button className="inline-flex w-full justify-center text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75">
                         About
                         <ChevronDownIcon
                             className="-mr-1 ml-2 h-5 w-5 my-auto text-violet-200 hover:text-violet-100"
@@ -50,7 +50,7 @@ export default function AboutDropdown(props: any) {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                 >
-                    <Menu.Items className="absolute left-0 lg:left-0 lg:right-auto mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-[#f3f5d8] shadow-lg ring-1 ring-black/5 focus:outline-none">
+                    <Menu.Items className="absolute left-0 lg:left-0 lg:right-auto mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-[#f3f5d8] shadow-lg ring-1 ring-black/5 focus:outline-none z-10">
                         <div className="px-1 py-1">
                             <Menu.Item>
                                 {({ active }) => (
