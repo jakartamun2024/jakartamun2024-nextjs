@@ -7,7 +7,7 @@ export default function RegisterDropdown({ isNav }: { isNav: boolean }) {
     <div className="">
       <Menu as="div" className="relative inline-block text-left">
         <div>
-          <Menu.Button className="inline-flex w-full justify-center rounded-full bg-[#f55789] px-4 py-2 text-white hover:bg-[#f56794] focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75">
+          <Menu.Button className="inline-flex w-full justify-center rounded-full bg-[#DF6A26] px-4 py-2 text-white hover:bg-[#f56794] focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75">
             {isNav ? "Register" : "Register Now"}
             <ChevronDownIcon
               className="-mr-1 ml-2 h-5 w-5 my-auto text-violet-200 hover:text-violet-100"
@@ -28,24 +28,41 @@ export default function RegisterDropdown({ isNav }: { isNav: boolean }) {
             <div className="px-1 py-1">
               <Menu.Item>
                 {({ active }) => (
-                  <button
-                    className={`${
-                      active ? "bg-[#f55789] text-[#f3f5d8]" : "text-gray-900"
-                    } group flex w-full items-center rounded-md px-2 py-2`}
-                  >
-                    Delegation
-                  </button>
+                  <a href="register-delegate">
+                    <button
+                      className={`${
+                        active ? "bg-[#f55789] text-[#f3f5d8]" : "text-gray-900"
+                      } group flex w-full items-center rounded-md px-2 py-2`}
+                    >
+                      Delegation
+                    </button>
+                  </a>
                 )}
               </Menu.Item>
               <Menu.Item>
                 {({ active }) => (
-                  <button
-                    className={`${
-                      active ? "bg-[#f55789] text-[#f3f5d8]" : "text-gray-900"
-                    } group flex w-full items-center rounded-md px-2 py-2`}
-                  >
-                    Non-delegation
-                  </button>
+                  <a href="register-non-delegate">
+                    <button
+                      className={`${
+                        active ? "bg-[#f55789] text-[#f3f5d8]" : "text-gray-900"
+                      } group flex w-full items-center rounded-md px-2 py-2`}
+                    >
+                      Non-delegation
+                    </button>
+                  </a>
+                )}
+              </Menu.Item>
+              <Menu.Item>
+                {({ active }) => (
+                  <a href="register-online">
+                    <button
+                      className={`${
+                        active ? "bg-[#f55789] text-[#f3f5d8]" : "text-gray-900"
+                      } group flex w-full items-center rounded-md px-2 py-2`}
+                    >
+                      Social Package
+                    </button>
+                  </a>
                 )}
               </Menu.Item>
             </div>

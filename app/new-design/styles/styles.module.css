@@ -1,0 +1,29 @@
+.animatesOne {
+  animation: fade 0.5s;
+  -webkit-animation: fade 5s;
+  -moz-animation: fade 5s;
+  -o-animation: fade 5s;
+  -ms-animation: fade 5s;
+}
+
+.animatesTwo {
+  animation: fade 10s;
+  animation-delay: 10s;
+  -webkit-animation: fade 5s;
+  -moz-animation: fade 5s;
+  -o-animation: fade 5s;
+  -ms-animation: fade 5s;
+}
+
+.delay {
+  animation-delay: 0.75s; /* Adjust according to delay-750 */
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
