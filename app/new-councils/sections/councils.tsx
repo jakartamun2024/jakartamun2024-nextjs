@@ -25,14 +25,14 @@ export default function CouncilsList() {
           </h2>
           <div className="flex flex-col-reverse md:flex-row items-center">
             <p className="basis-2/3 text-justify">
-              The United Nations Children’s Fund—abbreviated to UNICEF—is an
+              The United Nations Children's Fund—abbreviated to UNICEF—is an
               international organization that focuses on assisting children
               worldwide through humanitarian and developmental aid. First
               established in 1946, the organization acted as a relief for
               children who have been severely impacted by the second World War.
-              By 1950, the organization’s direction was shifted into creating
+              By 1950, the organization's direction was shifted into creating
               and implementing programs that would generally help increase
-              children’s welfare, hence extending UNICEF's mandate indefinitely.
+              children's welfare, hence extending UNICEF's mandate indefinitely.
               Since then, UNICEF has collaborated with over 190 countries,
               prioritizing its work in less-developed regions and is known to
               actively participate in assisting children in various emergency
@@ -40,7 +40,7 @@ export default function CouncilsList() {
             </p>
             <div className="basis-1/3">
               <Image
-                src="/council-icon/my-image.png"
+                src="/council-icon/UNICEF.png"
                 alt="UNICEF Icon"
                 height={200}
                 width={200}
@@ -50,7 +50,7 @@ export default function CouncilsList() {
             </div>
           </div>
           <p className="text-justify">
-            UNICEF’s programs have been guided by the Convention of the Rights
+            UNICEF's programs have been guided by the Convention of the Rights
             of the Child (1986), which explores means of child development and
             their indivisible rights. Additionally, they are mandated in
             assisting the attainment of the 2015 Sustainable Development Goals
@@ -62,16 +62,16 @@ export default function CouncilsList() {
             health, education, or other forms of rights, UNICEF remains
             consistent in improving forms of development for children worldwide.
           </p>
-          <h2 className="text-2xl font-bold self-start mt-1 italic text-center py-3">
+          <h2 className="text-2xl font-bold text-center py-7 italic text-[#DF6A26]">
             Prioritizing the Forthcoming Generation: Protecting Child Rights
             through Child Friendly Cities
           </h2>
-          <p className="text-justify mt-2">
+          <p className="text-justify">
             Communities should be livable for all - where everyone is guaranteed
             safety, comfort, and freedom of self-development. Hence, a
             child-friendly city is formed when a city is able to accommodate
             children and promotes their rights to the fullest extent in ensuring
-            their livelihood. This can be seen through the design of the city’s
+            their livelihood. This can be seen through the design of the city's
             infrastructure, the inclusion of children in any and all
             governmental decisions, as well as the provision of basic
             necessities and facilities. However, due to the multitude of city
@@ -139,19 +139,19 @@ export default function CouncilsList() {
             balance between the voices of local communities and international
             tourism demands.
           </p>
-          <h2 className="text-2xl font-bold self-start mt-1 italic text-center py-3">
+          <h2 className="text-2xl font-bold text-center py-7 italic text-[#DF6A26]">
             Balancing Profit and Protection: Revisiting Principles of
             Sustainable Cultural Tourism
           </h2>
-          <p className="text-justify mt-2">
+          <p className="text-justify">
             “Wonderful Indonesia”, “Explore France”, and “Incredible India”.
             These are only several amongst a multitude of tourism slogans
-            promoting a nation’s diversity of cultures and destinations. These
+            promoting a nation's diversity of cultures and destinations. These
             slogans acknowledge the role of culture in inciting curiosity and
             value-sharing between communities. Contemporarily, however, the role
             of culture in a society has undergone a crucial shift. If culture
             initially serves as a source of identity, its role has expanded to
-            forward a nation’s development at large. We see this with how
+            forward a nation's development at large. We see this with how
             culture-driven tourism is titled as the most on-demand tourism
             sector of the decade. Beyond concerns of this shift, the
             mainstreaming of culture begs a more pressing question: is this
@@ -182,11 +182,11 @@ export default function CouncilsList() {
               The Union of European Football Association (UEFA) is the governing
               body of European football,serving as the umbrella organization for
               55 national football associations across Europe. As a
-              representative democracy, the Association’s objectives are to deal
+              representative democracy, the Association's objectives are to deal
               with matters relating to European football, to promote football in
               a spirit of unity, solidarity, peace,and fair play - all without
               any discrimination on politics, race, religion, gender or any
-              other reason. Additionally, UEFA’s goal is to promote and protect
+              other reason. Additionally, UEFA's goal is to promote and protect
               ethical standards and good governance in European football, all
               the while maintaining relations with all stakeholders involved in
               European football.
@@ -197,6 +197,7 @@ export default function CouncilsList() {
                 alt="UEFA Icon"
                 height={200}
                 width={200}
+                quality={100}
                 className="mx-auto my-auto"
                 style={{ objectFit: "contain" }}
               />
@@ -212,11 +213,11 @@ export default function CouncilsList() {
             ultimate referee in maintaining open and equal participation, for
             EVERY player to be number 1!
           </p>
-          <h2 className="text-2xl font-bold self-start mt-1 italic text-center py-3">
+          <h2 className="text-2xl font-bold text-center py-7 italic text-[#DF6A26]">
             The Financial Disparities in European Football: Bridging the Gap in
             Sports
           </h2>
-          <p className="text-justify mt-2">
+          <p className="text-justify">
             European football is currently in crisis as inequalities continue to
             grow when every year big clubs spend billions of dollars to buy new
             players while leaving the other clubs with nothing. This
@@ -261,10 +262,11 @@ export default function CouncilsList() {
             </p>
             <div className="basis-1/3">
               <Image
-                src="/council-icon/WWC.png"
+                src="/council-icon/WWF.png"
                 alt="WWF Icon"
                 height={200}
                 width={200}
+                quality={100}
                 className="mx-auto my-auto"
                 style={{ objectFit: "contain" }}
               />
@@ -279,11 +281,11 @@ export default function CouncilsList() {
             bring participants from all areas and levels who will contribute to
             solving a wide range of water-related topics.
           </p>
-          <h2 className="text-2xl font-bold self-start mt-1 italic text-center py-3">
+          <h2 className="text-2xl font-bold text-center py-7 italic text-[#DF6A26]">
             Blueprint for Blue Waters: Responsibility Sharing Amidst Industrial
             Water Contamination
           </h2>
-          <p className="text-justify mt-2">
+          <p className="text-justify">
             With doubled demands for clean water since 1960, ensuring reliable
             and quality water supply has become increasingly challenging,
             especially noting the impact of climate change towards water
@@ -296,11 +298,11 @@ export default function CouncilsList() {
             risks. With the umbrella theme of Water for Shared Prosperity, the
             2024 World Water Forum seeks to devise a blueprint for sound and
             mutually-beneficial water governance that includes state and
-            non-state actors alike - as seen through the Forum’s subsidiary
+            non-state actors alike - as seen through the Forum's subsidiary
             agenda of “Governance, Cooperation, and Hydro-diplomacy”. Hence, in
             heeding the seemingly unavoidable water emergency, delegates are
             urged to reorient water policymaking in a manner that puts
-            sustainability and people’s well-being at the forefront.
+            sustainability and people's well-being at the forefront.
           </p>
         </div>
         {/* ====== WWF ====== */}
@@ -331,15 +333,16 @@ export default function CouncilsList() {
               powers to change the trajectory of Indonesian history through
               their unique roles - all with individual sets of goals. Delegates
               are expected to navigate through various scenarios, all the while
-              maneuvering each scenario unraveling in real time as the Council’s
+              maneuvering each scenario unraveling in real time as the Council's
               story arc progresses.
             </p>
             <div className="basis-1/3">
               <Image
-                src="/council-icon/UN.png"
+                src="/council-icon/HCC.png"
                 alt="HCC Icon"
                 height={200}
                 width={200}
+                quality={100}
                 className="mx-auto my-auto"
                 style={{ objectFit: "contain" }}
               />
@@ -366,11 +369,11 @@ export default function CouncilsList() {
             hopes of the people to achieve the national dream of a unified
             Indonesia.
           </p>
-          <h2 className="text-2xl font-bold self-start mt-1 italic text-center py-3">
+          <h2 className="text-2xl font-bold text-center py-7 italic text-[#DF6A26]">
             The 1957 National Forum: Drafting a New Unity Beyond the Centralized
             Order
           </h2>
-          <p className="text-justify mt-2">
+          <p className="text-justify">
             It has been 12 years since the Proclamation of Independence, but the
             fight for unification has become harder than ever. Diplomatic
             attempts to consolidate and mediate governance in Irian Barat have
@@ -384,7 +387,7 @@ export default function CouncilsList() {
             as a turning point for the Djuanda cabinet in restoring political
             certainty. Tasked with navigating the problems brought upon by
             economic and political turmoil, a myriad of questions are heaved
-            upon this National Forum: what lies ahead for Indonesia’s
+            upon this National Forum: what lies ahead for Indonesia's
             governance? Can the National Forum achieve integration amidst
             threats of disintegration? Or will the authority of the central
             government crumble under the pressure of separatist forces?
@@ -417,10 +420,11 @@ export default function CouncilsList() {
             </p>
             <div className="basis-1/3">
               <Image
-                src="/council-icon/UN.png"
+                src="/council-icon/UNSC.png"
                 alt="UNSC Icon"
                 height={200}
                 width={200}
+                quality={100}
                 className="mx-auto my-auto"
                 style={{ objectFit: "contain" }}
               />
@@ -438,11 +442,11 @@ export default function CouncilsList() {
             and find a solution (or solutions!) that will fit the interests of
             all parties involved.
           </p>
-          <h2 className="text-2xl font-bold self-start mt-1 italic text-center py-3">
+          <h2 className="text-2xl font-bold text-center py-7 italic text-[#DF6A26]">
             The Ocean Dilemmas: Redefining Security within the Indo-Pacific
             Ocean
           </h2>
-          <p className="text-justify mt-2">
+          <p className="text-justify">
             The Indo-Pacific Ocean is an undeniable region of political
             interest. It is a frontier for a myriad of geopolitical disputes,
             and therefore, the peaceful coexistence of nations in the
@@ -475,8 +479,8 @@ export default function CouncilsList() {
           </h2>
           <div className="flex flex-col-reverse md:flex-row items-center">
             <p className="basis-2/3 text-justify">
-              Also known as the “fourth estate” as part of the world’s
-              democracy, the Press Corps serves as the public’s eyes and ears to
+              Also known as the “fourth estate” as part of the world's
+              democracy, the Press Corps serves as the public's eyes and ears to
               acquire and report about current events, government actions, and
               societal trends. Press Corps is also made up of journalists,
               photographers, and other media professionals from a real life news
@@ -489,7 +493,7 @@ export default function CouncilsList() {
             </p>
             <div className="basis-1/3">
               <Image
-                src="/council-icon/UN.png"
+                src="/council-icon/PRESS.png"
                 alt="Press Icon"
                 height={200}
                 width={200}
@@ -535,7 +539,7 @@ export default function CouncilsList() {
               />
             </div>
           </div>
-          <h2 className="text-2xl font-bold self-start mt-1 italic text-center py-3">
+          <h2 className="text-2xl font-bold text-center py-7 italic text-[#DF6A26]">
             Topic Title: Adjusting to the Emergence of Automation Into the
             Knowledge and Creative Industry
           </h2>
@@ -543,8 +547,8 @@ export default function CouncilsList() {
             The organization's unique tripartite structure brings together the
             government, employer, and worker of its member states, unlike any
             other UN agencies. Those members then meet annually in an
-            International Labour Conference to set the agency’s policy and
-            conventions. This structure assists ILO’s efforts in actualizing the
+            International Labour Conference to set the agency's policy and
+            conventions. This structure assists ILO's efforts in actualizing the
             Decent Work Agenda, which sets a common objective for Member States
             to achieve full and productive employment, and decent work, by 2030.
             Come join our fight in realizing economic equality for all!
@@ -575,8 +579,8 @@ export default function CouncilsList() {
               currently, the special rapporteurs work under 45 human rights
               themes. Aside from that, every four years, the UNHRC also conducts
               the Universal Periodic Review, which is an assessment of member
-              states’ human rights implementation. All in all, the UNHRC assumes
-              the role of the world’s primary human rights body.
+              states' human rights implementation. All in all, the UNHRC assumes
+              the role of the world's primary human rights body.
             </p>
             <div className="basis-1/3">
               <Image
@@ -589,11 +593,11 @@ export default function CouncilsList() {
               />
             </div>
           </div>
-          <h2 className="text-2xl font-bold self-start mt-1 italic text-center py-3">
+          <h2 className="text-2xl font-bold text-center py-7 italic text-[#DF6A26]">
             A Beneficial Bias?: Identity-Based Discrimination in Criminal
             Justice Systems
           </h2>
-          <p className="text-justify mt-2">
+          <p className="text-justify">
             Bigotry comes in many names, and trickles into many dimensions.
             Hence, Article 7 of the Universal Declaration of Human Rights (UDHR)
             highlights the importance of protecting social minorities—made up of
@@ -614,57 +618,52 @@ export default function CouncilsList() {
             recent trends, Member States are urged to question: is the law
             compromisable in the face of possible public security threats? Or,
             are these acts deplorable under any circumstances and undermine the
-            criminal justice’s spirit of fairness?
+            criminal justice's spirit of fairness?
           </p>
         </div>
         {/* ====== UNHRC ====== */}
         {/* ====== NATO ====== */}
         <div className="pt-16 mb-32">
-          <h1 className="text-3xl font-bold text-end">
+          <h1 className="text-3xl font-bold text-center md:text-end pb-3">
             North Atlantic Treaty Organization (
             <span className="text-[#DF6A26]">NATO</span>)
           </h1>
-          <h2 className="text-2xl font-medium text-end pb-5">
+          <h2 className="text-2xl font-medium text-center md:text-end pb-5">
             <span className="text-[#DF6A26]">Council Type</span>: Beginner -
             Single Delegate
           </h2>
-          <div className="">
-            <div className="basis-1/3">
-              <Image
-                src="/council-icon/NATO.png"
-                alt="NATO Icon"
-                height={200}
-                width={200}
-                className="mx-5 my-5 float-left"
-                style={{ objectFit: "contain" }}
-              />
-            </div>
-            <p className="basis-2/3 text-justify">
-              Established in 1949, the North Atlantic Treaty Organization (NATO)
-              is an outstanding international alliance committed to establishing
-              the collective defense and security of its Member States. The
-              Organization’s spirit is aptly reflected in Article 5 of its
-              treaty, where an act against one member is an attack against all.
-              The inner workings of NATO is embodied through its motto, Animus
-              in consulendo liber - meaning “in discussion, a free mind”,
-              highlighting the importance of consultation amongst allies. NATO's
-              primary objective is to safeguard the freedom and security of its
-              members through political and military cooperation operating under
-              the principle of consensus. The Council of NATO, known as the
-              North Atlantic Council (NAC), serves as the organization's highest
-              decision-making body, purposed to formulate strategic decisions,
-              address emerging security challenges, and oversee the
-              implementation of NATO's objectives. Through its meetings, the
-              Organization facilitates open discussions on defense and security
-              matters, fostering collaboration and coordination to respond
-              effectively to evolving geopolitical threats.
-            </p>
-          </div>
-          <h2 className="text-2xl font-bold self-start mt-1 text-center py-5 ">
-            <span className="text-[#DF6A26] not-italic">Topic</span>:{" "}
-            <span className="italic">
-              An International Domain?: Security Expansion in the Arctic Ocean
-            </span>
+          <Image
+            src="/council-icon/NATO.png"
+            alt="NATO Icon"
+            height={150}
+            width={150}
+            quality={100}
+            className="md:float-left mx-auto my-5 md:m-5"
+            style={{ objectFit: "contain" }}
+          />
+          <p className="text-justify">
+            Established in 1949, the North Atlantic Treaty Organization (NATO)
+            is an outstanding international alliance committed to establishing
+            the collective defense and security of its Member States. The
+            Organization's spirit is aptly reflected in Article 5 of its treaty,
+            where an act against one member is an attack against all. The inner
+            workings of NATO is embodied through its motto, Animus in consulendo
+            liber - meaning “in discussion, a free mind”, highlighting the
+            importance of consultation amongst allies. NATO's primary objective
+            is to safeguard the freedom and security of its members through
+            political and military cooperation operating under the principle of
+            consensus. The Council of NATO, known as the North Atlantic Council
+            (NAC), serves as the organization's highest decision-making body,
+            purposed to formulate strategic decisions, address emerging security
+            challenges, and oversee the implementation of NATO's objectives.
+            Through its meetings, the Organization facilitates open discussions
+            on defense and security matters, fostering collaboration and
+            coordination to respond effectively to evolving geopolitical
+            threats.
+          </p>
+
+          <h2 className="text-2xl font-bold text-center py-7 italic text-[#DF6A26]">
+            An International Domain?: Security Expansion in the Arctic Ocean
           </h2>
           <p className="text-justify">
             The Arctic region has long been targeted as an arena between
@@ -674,8 +673,8 @@ export default function CouncilsList() {
             change and melting ice caps, self-vested environmental and economic
             goals have not only endangered the continuity of cooperation, but
             have also added facets to “threats to peace and stability” in the
-            Arctic region. As NATO’s Strategic Concept nears its second
-            anniversary, whether or not the Strategy’s commitment to “collective
+            Arctic region. As NATO's Strategic Concept nears its second
+            anniversary, whether or not the Strategy's commitment to “collective
             defense and interests” is upheld becomes ambiguous at best. Although
             the High North is considered as an international domain, national
             interests become further involved as more than 14 million km² of the
