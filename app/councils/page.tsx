@@ -1,9 +1,10 @@
-"use client";
+"use client"
 import { Poppins } from "next/font/google";
 import Image from "next/image";
 import NavBar from "../components/navbar/navbar";
 import CouncilsList from "./sections/councils";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
+import { useSearchParams } from "next/navigation";
 
 const poppins = Poppins({
   subsets: ["latin"],

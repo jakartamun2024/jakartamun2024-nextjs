@@ -58,7 +58,7 @@ export default function CouncilDropdown(props: any) {
                                         className={`${active ? "bg-[#f55789] text-[#f3f5d8]" : "text-gray-900"
                                             } group flex w-full items-center rounded-md px-2 py-2`} onClick={toAbout}
                                     >
-                                        Offline Councils
+                                        Offline Delegate
                                     </button>
                                 )}
                             </Menu.Item>
@@ -68,7 +68,7 @@ export default function CouncilDropdown(props: any) {
                                         className={`${active ? "bg-[#f55789] text-[#f3f5d8]" : "text-gray-900"
                                             } group flex w-full items-center rounded-md px-2 py-2`} onClick={toGrand}
                                     >
-                                        Online Councils
+                                        Online Delegate
                                     </button>
                                 )}
                             </Menu.Item>

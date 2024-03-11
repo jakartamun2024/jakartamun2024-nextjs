@@ -4,7 +4,7 @@ import React, { MouseEventHandler, useState } from "react";
 import { LuMenu, LuX } from "react-icons/lu";
 
 import Image from "next/image";
-import { Poppins } from "next/font/google";
+import { Bodoni_Moda, Poppins } from "next/font/google";
 import { tabs } from "./constant";
 
 import RegisterDropdown from "./registrationdropdown";
@@ -41,10 +41,7 @@ function NavBarBody(props: any) {
         </div>
         <div className="flex">
           <div className="my-auto">
-            <CouncilDropdown
-              offlineRef={props.offlineRef}
-              onlineRef={props.onlineRef}
-            />
+            <CouncilDropdown offlineRef={props.offlineRef} onlineRef={props.onlineRef} />
           </div>
         </div>
         {tabs.map(({ url, label }, index) => (
