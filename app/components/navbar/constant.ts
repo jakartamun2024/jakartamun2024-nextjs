@@ -1,4 +1,1 @@
-export const tabs = [
-  { url: "/councils", label: "Councils" },
-  { url: "/contact-us", label: "Contact Us" },
-];
+export const tabs = [{ url: "/contact-us", label: "Contact Us" }];

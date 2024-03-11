@@ -9,6 +9,7 @@ import { tabs } from "./constant";
 
 import RegisterDropdown from "./registrationdropdown";
 import AboutDropdown from "./aboutdropdown";
+import CouncilDropdown from "./councildropdown";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -35,6 +36,14 @@ function NavBarBody(props: any) {
             <AboutDropdown
               aboutRef={props.aboutRef}
               grandRef={props.grandRef}
+            />
+          </div>
+        </div>
+        <div className="flex">
+          <div className="my-auto">
+            <CouncilDropdown
+              offlineRef={props.offlineRef}
+              onlineRef={props.onlineRef}
             />
           </div>
         </div>

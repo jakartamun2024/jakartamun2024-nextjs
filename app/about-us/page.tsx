@@ -200,9 +200,9 @@ export default function Home() {
             >
               ABOUT ISAFIS
             </h1>
-            <div className="p-10 lg:px-40">
+            <div className="p-10 lg:px-40 pb-32">
               <p className="md:text-lg">
-                Indonesian Student Association for International Studies (
+                Indonesian Student Association for International Studies (”
                 <strong>ISAFIS</strong>”) is a youth-led and non-profit
                 organization formed as a medium for youth to exchange ideas,
                 embracing upon international issues. ISAFIS has also built
