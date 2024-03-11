@@ -9,7 +9,7 @@ const poppins = Poppins({
 
 export default function CouncilsList() {
   return (
-    <div className={`w-full ${poppins.className} bg-black bg-opacity-50`}>
+    <div className={`w-full ${poppins.className} bg-black bg-opacity-70`}>
       <div className="flex flex-col w-full px-3 md:w-2/3 md:p-0 mx-auto divide-y-2 divide-white gap-16 ">
         <h2 className="text-5xl text-center font-bold pt-10">
           Offline Councils
