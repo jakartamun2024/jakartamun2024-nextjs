@@ -39,7 +39,7 @@ export default function Home() {
           className="absolute z-0 top-0 h-1/3 w-full hidden md:block"
         />
         <div>
-          <div className="z-10">
+          <div className="">
             <h1
               className={`text-4xl md:text-5xl lg:text-6xl text-center text-transparent bg-clip-text bg-gradient-to-b drop-shadow-xl from-white to-[#faca6b] font-extrabold md:mb-10`}
             >
@@ -48,7 +48,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col">
-            <div className="flex flex-col md:flex-row w-fit  mx-auto md:pl-8 pt-10 md:divide-x-1 z-50">
+            <div className="flex flex-col md:flex-row w-fit  mx-auto md:pl-8 pt-10 md:divide-x-1">
               <div className="md:px-5 lg:px-10">
                 <p className="text-xl md:text-xl lg:text-3xl font-bold pb-2 text-center text-transparent bg-clip-text bg-gradient-to-b drop-shadow-md from-white to-[#faca6b]">
                   General Queries
@@ -136,7 +136,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-4 z-50 font-semibold left-1/2 transform -translate-x-1/2">
+      <div className="absolute hidden md:block bottom-4 z-50 font-semibold left-1/2 transform -translate-x-1/2 text-center">
         <p>
           Photo by{" "}
           <a

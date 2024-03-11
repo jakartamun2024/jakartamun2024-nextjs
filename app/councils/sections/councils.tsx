@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Poppins } from "next/font/google";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
@@ -10,34 +10,35 @@ const poppins = Poppins({
 });
 
 export default function CouncilsList(props: any) {
-  const searchParams = useSearchParams()
+  const searchParams = useSearchParams();
 
-  const search = searchParams.get('s')
+  const search = searchParams.get("s");
   useEffect(() => {
-    if (
-      search === "0" &&
-      props.offlineRef &&
-      props.offlineRef.current
-    ) {
-      props.offlineRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
-    } else if (
-      search === "1" &&
-      props.onlineRef &&
-      props.onlineRef.current
-    ) {
-      console.log("sdkjf")
-      props.onlineRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+    if (search === "0" && props.offlineRef && props.offlineRef.current) {
+      props.offlineRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
+    } else if (search === "1" && props.onlineRef && props.onlineRef.current) {
+      console.log("sdkjf");
+      props.onlineRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
     }
-  }, [])
+  }, []);
 
   return (
     <div className={`w-full ${poppins.className} bg-black bg-opacity-70`}>
-      <div className="flex flex-col w-full px-3 md:w-2/3 md:p-0 mx-auto divide-y-2 divide-white gap-16 ">
-        <h2 className="text-5xl text-center font-bold pt-10" ref={props.offlineRef}>
+      <div className="flex flex-col w-full px-3 md:w-2/3 md:p-0 mx-auto divide-y-2 divide-white gap-10 md:gap-16 ">
+        <h2
+          className=" text-4xl md:text-5xl text-center font-bold pt-10"
+          ref={props.offlineRef}
+        >
           Offline Delegate
         </h2>
         {/* ====== UNICEF ======= */}
-        <div className="pt-16">
+        <div className="pt-10 md:pt-16 ">
           <h1 className="text-3xl font-bold text-center md:text-start">
             United Nations Children's Fund (
             <span className="text-[#DF6A26]">UNICEF</span>)
@@ -513,7 +514,10 @@ export default function CouncilsList(props: any) {
           </div>
         </div>
         {/* ====== PRESS CORPS ====== */}
-        <h2 className="text-5xl text-center font-bold pt-16" ref={props.onlineRef}>
+        <h2
+          className="text-5xl text-center font-bold pt-16"
+          ref={props.onlineRef}
+        >
           Online Delegate
         </h2>
         {/* ====== ILO ====== */}

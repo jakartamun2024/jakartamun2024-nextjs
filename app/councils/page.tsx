@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Poppins } from "next/font/google";
 import Image from "next/image";
 import NavBar from "../components/navbar/navbar";
@@ -22,7 +22,9 @@ export default function CouncilPage() {
       <div className="w-full h-fit pt-[90px]">
         <div className="relative w-full h-32 flex items-center justify-center">
           <div className="absolute inset-0 bg-black opacity-20"></div>
-          <h1 className={`text-7xl font-bold relative ${poppins.className}`}>
+          <h1
+            className={`text-5xl md:text-7xl font-bold relative ${poppins.className}`}
+          >
             Councils
           </h1>
         </div>
