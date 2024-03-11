@@ -3,7 +3,8 @@ import { Poppins } from "next/font/google";
 import Image from "next/image";
 import NavBar from "../components/navbar/navbar";
 import CouncilsList from "./sections/councils";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
+import { useSearchParams } from "next/navigation";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -11,8 +12,17 @@ const poppins = Poppins({
 });
 
 export default function CouncilPage() {
-  const offlineRef = useRef(null);
-  const onlineRef = useRef(null);
+  const offlineRef = useRef<HTMLDivElement>(null);
+  const onlineRef = useRef<HTMLDivElement>(null);
+  const params = useSearchParams();
+  const s = params.get("s");
+  useEffect(() => {
+    if (s === "0" && offlineRef && offlineRef.current) {
+      offlineRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+    } else if (s === "1" && onlineRef && onlineRef.current) {
+      onlineRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  }, []);
   return (
     <div>
       <nav className="w-full top-0 z-50">

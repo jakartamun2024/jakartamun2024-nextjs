@@ -27,7 +27,7 @@ export default function Home() {
     } else if (s === "1" && grandRef && grandRef.current) {
       grandRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
     }
-  }, ["*"]);
+  }, []);
 
   return (
     <div className="">

@@ -23,7 +23,7 @@ function NavBarCollapse(props: any) {
       leaveTo="-translate-y-30 opacity-0"
       leave="transition-all duration-300"
     >
-      <div className={`flex flex-col gap-4 ${poppins.className} text-m`}>
+      <div className={`flex flex-col gap-4 ${poppins.className} text-lg`}>
         <div className="ms-2">
           <AboutDropdown
             aboutRef={props.aboutRef}
