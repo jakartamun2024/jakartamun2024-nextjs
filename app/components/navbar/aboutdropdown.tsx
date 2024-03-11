@@ -68,7 +68,7 @@ export default function AboutDropdown(props: any) {
                                         className={`${active ? "bg-[#f55789] text-[#f3f5d8]" : "text-gray-900"
                                             } group flex w-full items-center rounded-md px-2 py-2`} onClick={toGrand}
                                     >
-                                        Grand Theme
+                                        About ISAFIS
                                     </button>
                                 )}
                             </Menu.Item>
