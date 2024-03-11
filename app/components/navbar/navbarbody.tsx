@@ -34,7 +34,7 @@ function NavBarBody(props: any) {
 
             <div className="hidden lg:flex text-white gap-12">
                 <div className="flex">
-                    <div className='my-auto'>
+                    <div className='my-auto cursor-pointer'>
                         <AboutDropdown aboutRef={props.aboutRef} grandRef={props.grandRef} />
                     </div>
                 </div>

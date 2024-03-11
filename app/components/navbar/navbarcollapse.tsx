@@ -4,6 +4,7 @@ import { tabs } from './constant'
 import Link from 'next/link';
 import { Bodoni_Moda } from 'next/font/google';
 import RegisterDropdown from './registrationdropdown';
+import AboutDropdown from './aboutdropdown';
 
 const bodoni = Bodoni_Moda({ weight: "500", subsets: ["latin"], display: "swap" })
 
@@ -19,6 +20,11 @@ function NavBarCollapse(props: any) {
             leave="transition-all duration-300"
         >
             <div className={`flex flex-col gap-4 ${bodoni.className} text-m`}>
+                <div className="flex">
+                    <div className='ms-2'>
+                        <AboutDropdown aboutRef={props.aboutRef} grandRef={props.grandRef} />
+                    </div>
+                </div>
                 {tabs.map(({ url, label }, index) => (
                     <Link href={url} key={index}>
                         <div className="text-white ms-2">{label}</div>
