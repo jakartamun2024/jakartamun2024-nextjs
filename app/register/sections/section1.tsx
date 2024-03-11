@@ -2,7 +2,7 @@ import React from "react";
 import { DM_Serif_Text, Open_Sans } from "next/font/google";
 import { Bodoni_Moda } from "next/font/google";
 import Image from "next/image";
-import RegisterDropdown from "../../ui/navbar/registrationdropdown";
+import RegisterDropdown from "../../components/navbar/registrationdropdown";
 import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 
 const bodoni = Bodoni_Moda({ weight: "500", subsets: ["latin"] });
