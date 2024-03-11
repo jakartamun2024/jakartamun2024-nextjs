@@ -34,8 +34,8 @@ export default function Home() {
       <nav className="w-screen top-0 z-50">
         <NavBar aboutRef={aboutRef} grandRef={grandRef} />
       </nav>
-      <div className="w-screen flex items-center justify-center py-36 pb-12">
-        <div className="absolute h-screen w-screen">
+      <div className="flex items-center justify-center py-36 pb-12">
+        <div className="absolute h-screen w-full">
           <Image
             src="/backgrounds/dawn-jakarta.jpg"
             alt="Background Image of Aerial shot of Jakarta"
@@ -66,8 +66,8 @@ export default function Home() {
           ></iframe>
         </div>
       </div>
-      <div className="items-center justify-center ">
-        <div className="absolute min-h-fit w-screen bg-[#DF6A26] ">
+      <div className="items-center justify-center">
+        <div className="absolute min-h-fit bg-[#DF6A26]">
           <div
             className={`min-h-fit bg-gradient-to-b from-[#DF6A26] to-[#f55789] z-20 ${poppins.className} text-justify`}
           >
@@ -96,7 +96,6 @@ export default function Home() {
             </div>
             <h1
               className={`text-4xl md:text-5xl lg:text-7xl text-center text-transparent bg-clip-text bg-gradient-to-b drop-shadow-md from-white to-[#faca6b] font-extrabold mt-10`}
-              ref={grandRef}
             >
               GRAND THEME
             </h1>
@@ -197,6 +196,7 @@ export default function Home() {
             </div>
             <h1
               className={`text-4xl md:text-5xl lg:text-7xl text-center text-transparent bg-clip-text bg-gradient-to-b drop-shadow-md from-white to-[#faca6b] font-extrabold mt-10`}
+              ref={grandRef}
             >
               ABOUT ISAFIS
             </h1>
