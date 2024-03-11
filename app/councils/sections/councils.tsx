@@ -26,7 +26,7 @@ export default function CouncilsList(props: any) {
         block: "center",
       });
     }
-  }, []);
+  }, [search, props.offlineRef, props.onlineRef]);
 
   return (
     <div className={`w-full ${poppins.className} bg-black bg-opacity-70`}>
@@ -40,7 +40,7 @@ export default function CouncilsList(props: any) {
         {/* ====== UNICEF ======= */}
         <div className="pt-10 md:pt-16 ">
           <h1 className="text-3xl font-bold text-center md:text-start">
-            United Nations Children's Fund (
+            United Nations Children&apos;s Fund (
             <span className="text-[#DF6A26]">UNICEF</span>)
           </h1>
           <h2 className="text-2xl font-medium text-center md:text-start py-3">
@@ -58,30 +58,32 @@ export default function CouncilsList(props: any) {
             />
           </div>
           <p className="text-justify">
-            The United Nations Children's Fund—abbreviated to UNICEF—is an
+            The United Nations Children&apos;s Fund—abbreviated to UNICEF—is an
             international organization that focuses on assisting children
             worldwide through humanitarian and developmental aid. First
             established in 1946, the organization acted as a relief for children
             who have been severely impacted by the second World War. By 1950,
-            the organization's direction was shifted into creating and
-            implementing programs that would generally help increase children's
-            welfare, hence extending UNICEF's mandate indefinitely. Since then,
-            UNICEF has collaborated with over 190 countries, prioritizing its
-            work in less-developed regions and is known to actively participate
-            in assisting children in various emergency situations.
+            the organization&apos;s direction was shifted into creating and
+            implementing programs that would generally help increase
+            children&apos;s welfare, hence extending UNICEF&apos;s mandate
+            indefinitely. Since then, UNICEF has collaborated with over 190
+            countries, prioritizing its work in less-developed regions and is
+            known to actively participate in assisting children in various
+            emergency situations.
             <br />
             <br />
-            UNICEF's programs have been guided by the Convention of the Rights
-            of the Child (1986), which explores means of child development and
-            their indivisible rights. Additionally, they are mandated in
-            assisting the attainment of the 2015 Sustainable Development Goals
-            (SDGs) worldwide - being, to ensure a form of sustainable
-            development that is “child-centered”. Amongst its many child welfare
-            frameworks includes the Child Friendly City Initiative (CFCI), which
-            calls for the inclusion of children in public-private discussions to
-            create living spaces that support child development. May it be child
-            health, education, or other forms of rights, UNICEF remains
-            consistent in improving forms of development for children worldwide.
+            UNICEF&apos;s programs have been guided by the Convention of the
+            Rights of the Child (1986), which explores means of child
+            development and their indivisible rights. Additionally, they are
+            mandated in assisting the attainment of the 2015 Sustainable
+            Development Goals (SDGs) worldwide - being, to ensure a form of
+            sustainable development that is “child-centered”. Amongst its many
+            child welfare frameworks includes the Child Friendly City Initiative
+            (CFCI), which calls for the inclusion of children in public-private
+            discussions to create living spaces that support child development.
+            May it be child health, education, or other forms of rights, UNICEF
+            remains consistent in improving forms of development for children
+            worldwide.
           </p>
           <h2 className="text-2xl font-bold text-center py-7 italic text-[#DF6A26]">
             Prioritizing the Forthcoming Generation: Protecting Child Rights
@@ -92,8 +94,8 @@ export default function CouncilsList(props: any) {
             safety, comfort, and freedom of self-development. Hence, a
             child-friendly city is formed when a city is able to accommodate
             children and promotes their rights to the fullest extent in ensuring
-            their livelihood. This can be seen through the design of the city's
-            infrastructure, the inclusion of children in any and all
+            their livelihood. This can be seen through the design of the
+            city&apos;s infrastructure, the inclusion of children in any and all
             governmental decisions, as well as the provision of basic
             necessities and facilities. However, due to the multitude of city
             development priorities—such as accommodating affluent newcomers,
@@ -164,14 +166,14 @@ export default function CouncilsList(props: any) {
           <p className="text-justify">
             “Wonderful Indonesia”, “Explore France”, and “Incredible India”.
             These are only several amongst a multitude of tourism slogans
-            promoting a nation's diversity of cultures and destinations. These
-            slogans acknowledge the role of culture in inciting curiosity and
-            value-sharing between communities. Contemporarily, however, the role
-            of culture in a society has undergone a crucial shift. If culture
-            initially serves as a source of identity, its role has expanded to
-            forward a nation's development at large. We see this with how
-            culture-driven tourism is titled as the most on-demand tourism
-            sector of the decade. Beyond concerns of this shift, the
+            promoting a nation&apos;s diversity of cultures and destinations.
+            These slogans acknowledge the role of culture in inciting curiosity
+            and value-sharing between communities. Contemporarily, however, the
+            role of culture in a society has undergone a crucial shift. If
+            culture initially serves as a source of identity, its role has
+            expanded to forward a nation&apos;s development at large. We see
+            this with how culture-driven tourism is titled as the most on-demand
+            tourism sector of the decade. Beyond concerns of this shift, the
             mainstreaming of culture begs a more pressing question: is this
             sector of tourism <em>sustainable</em>? May it be revenue
             volatility, enterprise-driven exploitation, or social changes due to
@@ -211,14 +213,14 @@ export default function CouncilsList(props: any) {
             The Union of European Football Association (UEFA) is the governing
             body of European football,serving as the umbrella organization for
             55 national football associations across Europe. As a representative
-            democracy, the Association's objectives are to deal with matters
-            relating to European football, to promote football in a spirit of
-            unity, solidarity, peace,and fair play - all{" "}
+            democracy, the Association&apos;s objectives are to deal with
+            matters relating to European football, to promote football in a
+            spirit of unity, solidarity, peace,and fair play - all{" "}
             <strong>
               without any discrimination on politics, race, religion, gender or
               any other reason
             </strong>
-            . Additionally, UEFA's goal is to promote and protect ethical
+            . Additionally, UEFA&apos;s goal is to promote and protect ethical
             standards and good governance in European football, all the while
             maintaining relations with all stakeholders involved in European
             football. In what is called the UEFA Congress, the UEFA president
@@ -314,11 +316,11 @@ export default function CouncilsList(props: any) {
             <em>Water for Shared Prosperity</em>, the 2024 World Water Forum
             seeks to devise a blueprint for sound and mutually-beneficial water
             governance that includes state and non-state actors alike - as seen
-            through the Forum's subsidiary agenda of “Governance, Cooperation,
-            and Hydro-diplomacy”. Hence, in heeding the seemingly unavoidable
-            water emergency, delegates are urged to reorient water policymaking
-            in a manner that puts sustainability and people's well-being at the
-            forefront.
+            through the Forum&apos;s subsidiary agenda of “Governance,
+            Cooperation, and Hydro-diplomacy”. Hence, in heeding the seemingly
+            unavoidable water emergency, delegates are urged to reorient water
+            policymaking in a manner that puts sustainability and people&apos;s
+            well-being at the forefront.
           </p>
         </div>
         {/* ====== WWF ====== */}
@@ -356,8 +358,8 @@ export default function CouncilsList(props: any) {
               powers to change the trajectory of Indonesian history through
               their unique roles - all with individual sets of goals. Delegates
               are expected to navigate through various scenarios, all the while
-              maneuvering each scenario unraveling in real time as the Council's
-              story arc progresses.
+              maneuvering each scenario unraveling in real time as the
+              Council&apos;s story arc progresses.
             </p>
           </div>
           <p className="text-justify pt-3">
@@ -399,7 +401,7 @@ export default function CouncilsList(props: any) {
             as a turning point for the Djuanda cabinet in restoring political
             certainty. Tasked with navigating the problems brought upon by
             economic and political turmoil, a myriad of questions are heaved
-            upon this National Forum: what lies ahead for Indonesia's
+            upon this National Forum: what lies ahead for Indonesia&apos;s
             governance? Can the National Forum achieve integration amidst
             threats of disintegration? Or will the authority of the central
             government crumble under the pressure of separatist forces?
@@ -499,17 +501,18 @@ export default function CouncilsList(props: any) {
               style={{ objectFit: "contain" }}
             />
             <p className="text-justify">
-              Also known as the “fourth estate” as part of the world's
-              democracy, the Press Corps serves as the public's eyes and ears to
-              acquire and report about current events, government actions, and
-              societal trends. Press Corps is also made up of journalists,
-              photographers, and other media professionals from a real life news
-              agency. In Jakarta International Model UN 2024, the Press Corps
-              journalists are to attend briefings, press conferences, and events
-              to pose pointed questions, look for explanations, and deliver
-              timely and correct information to the public. They serve as a link
-              between the general public and people in positions of authority,
-              encouraging openness and acting as a restraint on authority.
+              Also known as the “fourth estate” as part of the world&apos;s
+              democracy, the Press Corps serves as the public&apos;s eyes and
+              ears to acquire and report about current events, government
+              actions, and societal trends. Press Corps is also made up of
+              journalists, photographers, and other media professionals from a
+              real life news agency. In Jakarta International Model UN 2024, the
+              Press Corps journalists are to attend briefings, press
+              conferences, and events to pose pointed questions, look for
+              explanations, and deliver timely and correct information to the
+              public. They serve as a link between the general public and people
+              in positions of authority, encouraging openness and acting as a
+              restraint on authority.
             </p>
           </div>
         </div>
@@ -557,14 +560,15 @@ export default function CouncilsList(props: any) {
             Knowledge and Creative Industry
           </h2>
           <p className="text-justify">
-            The organization's unique tripartite structure brings together the
-            government, employer, and worker of its member states, unlike any
-            other UN agencies. Those members then meet annually in an
-            International Labour Conference to set the agency's policy and
-            conventions. This structure assists ILO's efforts in actualizing the
-            Decent Work Agenda, which sets a common objective for Member States
-            to achieve full and productive employment, and decent work, by 2030.
-            Come join our fight in realizing economic equality for all!
+            The organization&apos;s unique tripartite structure brings together
+            the government, employer, and worker of its member states, unlike
+            any other UN agencies. Those members then meet annually in an
+            International Labour Conference to set the agency&apos;s policy and
+            conventions. This structure assists ILO&apos;s efforts in
+            actualizing the Decent Work Agenda, which sets a common objective
+            for Member States to achieve full and productive employment, and
+            decent work, by 2030. Come join our fight in realizing economic
+            equality for all!
           </p>
         </div>
         {/* ====== ILO ====== */}
@@ -602,8 +606,8 @@ export default function CouncilsList(props: any) {
               currently, the special rapporteurs work under 45 human rights
               themes. Aside from that, every four years, the UNHRC also conducts
               the Universal Periodic Review, which is an assessment of member
-              states' human rights implementation. All in all, the UNHRC assumes
-              the role of the world's primary human rights body.
+              states&apos; human rights implementation. All in all, the UNHRC
+              assumes the role of the world&apos;s primary human rights body.
             </p>
           </div>
           <h2 className="text-2xl font-bold text-center py-7 italic text-[#DF6A26]">
@@ -631,7 +635,7 @@ export default function CouncilsList(props: any) {
             these recent trends, Member States are urged to question: is the law
             compromisable in the face of possible public security threats? Or,
             are these acts deplorable under any circumstances and undermine the
-            criminal justice's spirit of fairness?
+            criminal justice&apos;s spirit of fairness?
           </p>
         </div>
         {/* ====== UNHRC ====== */}
@@ -659,21 +663,22 @@ export default function CouncilsList(props: any) {
               Established in 1949, the North Atlantic Treaty Organization (NATO)
               is an outstanding international alliance committed to establishing
               the collective defense and security of its Member States. The
-              Organization's spirit is aptly reflected in Article 5 of its
+              Organization&apos;s spirit is aptly reflected in Article 5 of its
               treaty, where an act against one member is an attack against all.
               The inner workings of NATO is embodied through its motto,{" "}
               <em>Animus in consulendo liber</em> - meaning “in discussion, a
               free mind”, highlighting the importance of consultation amongst
-              allies. NATO's primary objective is to safeguard the freedom and
-              security of its members through political and military cooperation
-              operating under the principle of consensus. The Council of NATO,
-              known as the North Atlantic Council (NAC), serves as the
-              organization's highest decision-making body, purposed to formulate
-              strategic decisions, address emerging security challenges, and
-              oversee the implementation of NATO's objectives. Through its
-              meetings, the Organization facilitates open discussions on defense
-              and security matters, fostering collaboration and coordination to
-              respond effectively to evolving geopolitical threats.
+              allies. NATO&apos;s primary objective is to safeguard the freedom
+              and security of its members through political and military
+              cooperation operating under the principle of consensus. The
+              Council of NATO, known as the North Atlantic Council (NAC), serves
+              as the organization&apos;s highest decision-making body, purposed
+              to formulate strategic decisions, address emerging security
+              challenges, and oversee the implementation of NATO&apos;s
+              objectives. Through its meetings, the Organization facilitates
+              open discussions on defense and security matters, fostering
+              collaboration and coordination to respond effectively to evolving
+              geopolitical threats.
             </p>
           </div>
 
@@ -690,18 +695,18 @@ export default function CouncilsList(props: any) {
             change and melting ice caps, self-vested environmental and economic
             goals have not only endangered the continuity of cooperation, but
             have also added facets to “threats to peace and stability” in the
-            Arctic region. As NATO's Strategic Concept nears its second
-            anniversary, whether or not the Strategy's commitment to “collective
-            defense and interests” is upheld becomes ambiguous at best. Although
-            the High North is considered as an international domain, national
-            interests become further involved as more than 14 million km² of the
-            Arctic region becomes new, tempting trade routes and novel deep sea
-            mining centers. With such concerns in mind, recent expansion of
-            military presence begs the question: what does NATO define as
-            “threats to Arctic security”? Hence, Member States of NATO are not
-            only urged to achieve consensus amidst clashing security priorities,
-            but to also pay attention to the sustainability of ongoing Arctic
-            activities for upcoming generations.
+            Arctic region. As NATO&apos;s Strategic Concept nears its second
+            anniversary, whether or not the Strategy&apos;s commitment to
+            “collective defense and interests” is upheld becomes ambiguous at
+            best. Although the High North is considered as an international
+            domain, national interests become further involved as more than 14
+            million km² of the Arctic region becomes new, tempting trade routes
+            and novel deep sea mining centers. With such concerns in mind,
+            recent expansion of military presence begs the question: what does
+            NATO define as “threats to Arctic security”? Hence, Member States of
+            NATO are not only urged to achieve consensus amidst clashing
+            security priorities, but to also pay attention to the sustainability
+            of ongoing Arctic activities for upcoming generations.
           </p>
         </div>
         {/* ====== NATO ====== */}

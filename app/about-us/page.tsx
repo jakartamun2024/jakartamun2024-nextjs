@@ -15,9 +15,6 @@ const poppins = Poppins({
 export default function Home() {
   const grandRef = useRef<HTMLDivElement>(null);
   const aboutRef = useRef<HTMLDivElement>(null);
-  const taglineRef = useRef<HTMLDivElement>(null);
-  const grandDesignRef = useRef<HTMLDivElement>(null);
-  const isafisRef = useRef<HTMLDivElement>(null);
 
   const params = useSearchParams();
   const s = params.get("s");
@@ -27,7 +24,7 @@ export default function Home() {
     } else if (s === "1" && grandRef && grandRef.current) {
       grandRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
     }
-  }, []);
+  }, [s, aboutRef, grandRef]);
 
   return (
     <div className="">
@@ -89,9 +86,10 @@ export default function Home() {
                 experience international negotiation and diplomacy, substantive
                 discussions, as well as social and cultural exchange experiences
                 in the very heart and capital of Indonesia through its side
-                events. Every year, JMUN comes with an array of UN's councils,
-                with each council having its respected delegates to develop a
-                draft resolution aimed at tackling each council's main topic.
+                events. Every year, JMUN comes with an array of UN&apos;s
+                councils, with each council having its respected delegates to
+                develop a draft resolution aimed at tackling each council&apos;s
+                main topic.
               </p>
             </div>
             <h1
@@ -111,26 +109,26 @@ export default function Home() {
                 clashing interests hindering the achievement of a prosperous
                 future, now is the moment to begin anew and realign our course.
                 This calls for novel transformative actions to reclaim the
-                world's initial plans in fostering positive changes impartially.
-                It is essential not only for navigating the future filled with
-                risks and opportunities but also for addressing the persistent
-                needs of the present. Progressing into the future, the
-                initiative needs the help of not only the government, but also
-                the people. Thus, we should stand united and better equipped to
-                face the uncertainties of tomorrow.
+                world&apos;s initial plans in fostering positive changes
+                impartially. It is essential not only for navigating the future
+                filled with risks and opportunities but also for addressing the
+                persistent needs of the present. Progressing into the future,
+                the initiative needs the help of not only the government, but
+                also the people. Thus, we should stand united and better
+                equipped to face the uncertainties of tomorrow.
               </p>
               <br />
               <p className="md:text-lg">
                 With that in mind, JMUN 2024 marks its triumphant return,
-                aspiring to underscore the significance of each individual's
-                role in shaping the present and tomorrow's world. The conference
-                also aims to present a diverse range of perspectives on
-                Jakarta's vibrant Betawi culture coupled with engaging
-                discussions on pressing global issues. Overall, JMUN 2024
-                extends a warm invitation to every delegate, encouraging their
-                valuable contributions to Indonesia's most prestigious MUN
-                conference, hosted in none other than the cosmopolitan city of
-                Jakarta.
+                aspiring to underscore the significance of each
+                individual&apos;s role in shaping the present and
+                tomorrow&apos;s world. The conference also aims to present a
+                diverse range of perspectives on Jakarta&apos;s vibrant Betawi
+                culture coupled with engaging discussions on pressing global
+                issues. Overall, JMUN 2024 extends a warm invitation to every
+                delegate, encouraging their valuable contributions to
+                Indonesia&apos;s most prestigious MUN conference, hosted in none
+                other than the cosmopolitan city of Jakarta.
               </p>
             </div>
             <h1
@@ -149,7 +147,7 @@ export default function Home() {
                 fostering such positive changes for the future. This commitment
                 is strengthened through our tagline, “
                 <strong>Transforming Tomorrow</strong>,” symbolizing our
-                contribution to this new chapter of tomorrow's world.
+                contribution to this new chapter of tomorrow&apos;s world.
               </p>
             </div>
             <h1
@@ -159,11 +157,11 @@ export default function Home() {
             </h1>
             <div className="p-10 lg:px-40">
               <p className="md:text-lg">
-                JMUN 2024 aims to promote Jakarta's rich Betawi culture through
-                a compelling grand theme and a thoughtfully crafted grand
-                design. Well-known for striking colors such as yellow, red,
-                pink, and orange, the Betawi culture aligns seamlessly with our
-                vision of hosting a vibrant series of events. Moreover, the
+                JMUN 2024 aims to promote Jakarta&apos;s rich Betawi culture
+                through a compelling grand theme and a thoughtfully crafted
+                grand design. Well-known for striking colors such as yellow,
+                red, pink, and orange, the Betawi culture aligns seamlessly with
+                our vision of hosting a vibrant series of events. Moreover, the
                 color orange also reflects a warm welcome, embodying our mission
                 to embrace delegates from diverse backgrounds, as well as a
                 spirit of adventure as we navigate the future, filled with risks
@@ -171,8 +169,8 @@ export default function Home() {
               </p>
               <br />
               <p className="md:text-lg">
-                In respect to JMUN 2024's grand design, we have specifically
-                chosen{" "}
+                In respect to JMUN 2024&apos;s grand design, we have
+                specifically chosen{" "}
                 <span className="font-bold bg-[#DF6A26] rounded-lg px-1">
                   orange
                 </span>{" "}
@@ -182,8 +180,8 @@ export default function Home() {
                 showcases the famous <em>Tumpal Pucuk Rebung batik</em>, along
                 with indigenous flowers such as <em>Rasamala</em>, which was
                 found abundantly in the forests of Sunda Kelapa. Furthermore,
-                the wavy elements are linked to Jakarta's maritime history as
-                one of the centers of trade. Overall, JMUN 2024 presents the
+                the wavy elements are linked to Jakarta&apos;s maritime history
+                as one of the centers of trade. Overall, JMUN 2024 presents the
                 Betawi culture through interconnected elements.{" "}
               </p>
               <br />
