@@ -22,11 +22,13 @@ const poppins = Poppins({
 
 export default function Home() {
   return (
-    <div className={`${poppins.className}`}>
+    <div>
       <nav className="w-screen top-0 z-50">
         <NavBar />
       </nav>
-      <div className="w-screen h-screen flex flex-col justify-center bg-gradient-to-b from-[#DF6A26] to-[#f55789] relative">
+      <div
+        className={`${poppins.className} w-screen h-screen flex flex-col justify-center bg-gradient-to-b from-[#DF6A26] to-[#f55789] relative`}
+      >
         <Image
           src="/backgrounds/image.jpg"
           alt="Background Image of Bundaran HI"
@@ -133,6 +135,22 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="absolute bottom-4 z-50 font-semibold left-1/2 transform -translate-x-1/2">
+        <p>
+          Photo by{" "}
+          <a
+            href="https://unsplash.com/@dapiki?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            dapiki moto
+          </a>{" "}
+          on{" "}
+          <a href="https://unsplash.com/photos/the-sun-is-setting-over-a-city-with-tall-buildings-r4GDiu1V4cg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+            Unsplash
+          </a>
+        </p>
       </div>
     </div>
   );

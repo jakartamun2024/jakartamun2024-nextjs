@@ -22,16 +22,16 @@ export default function Home() {
             src="/backgrounds/bhi.jpg"
             alt="Background Image of Bundaran HI"
             quality={100}
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
             className="lg:hidden"
           />
           <div className="hidden lg:block">
             <Image
               src="/backgrounds/bhi.jpg"
               alt="Background Image of Bundaran HI"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: "cover" }}
               quality={100}
             />
           </div>
