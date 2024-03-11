@@ -1,1 +1,1 @@
-export const tabs = [{ url: "/new-councils", label: "Councils" }];
+export const tabs = [{ url: "/councils", label: "Councils" }];

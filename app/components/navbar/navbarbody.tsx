@@ -2,22 +2,23 @@
 import Link from "next/link";
 import React, { MouseEventHandler, useState } from "react";
 import { LuMenu, LuX } from "react-icons/lu";
+
 import Image from "next/image";
-import { Bodoni_Moda } from "next/font/google";
+import { Poppins } from "next/font/google";
 import { tabs } from "./constant";
+
 import RegisterDropdown from "./registrationdropdown";
 import AboutDropdown from "./aboutdropdown";
 
-const bodoni = Bodoni_Moda({
-  weight: "500",
+const poppins = Poppins({
   subsets: ["latin"],
-  display: "swap",
+  weight: ["400", "500", "600", "700", "800", "900"],
 });
 
 function NavBarBody(props: any) {
   return (
     <div
-      className={`w-full flex justify-between items-center z-50 ${bodoni.className}`}
+      className={`w-full flex justify-between items-center z-50 ${poppins.className}`}
     >
       <Link href={"/"}>
         <div className="lg:w-16 lg:h-16 md:w-14 md:h-14 sm:h-12 sm:w-12 h-12 w-12 relative inline-block">
