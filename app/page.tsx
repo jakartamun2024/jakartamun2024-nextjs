@@ -2,7 +2,6 @@
 import Image from "next/image";
 import NavBar from "./components/navbar/navbar";
 import styles from "./styles/styles.module.css";
-import myImage from "../public/backgrounds/bhi.jpg";
 
 import { Poppins } from "next/font/google";
 
