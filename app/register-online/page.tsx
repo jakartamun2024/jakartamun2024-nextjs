@@ -1,7 +1,5 @@
-"use client";
 import React from "react";
 import NavBar from "../components/navbar/navbar";
-import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 import Section1 from "./sections/section1";
 
 const RegisterPageOnline = () => {

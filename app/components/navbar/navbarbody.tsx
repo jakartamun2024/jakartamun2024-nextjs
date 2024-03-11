@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import React, { MouseEventHandler, useState } from "react";
 import { LuMenu, LuX } from "react-icons/lu";
@@ -41,7 +40,10 @@ function NavBarBody(props: any) {
         </div>
         <div className="flex">
           <div className="my-auto">
-            <CouncilDropdown offlineRef={props.offlineRef} onlineRef={props.onlineRef} />
+            <CouncilDropdown
+              offlineRef={props.offlineRef}
+              onlineRef={props.onlineRef}
+            />
           </div>
         </div>
         {tabs.map(({ url, label }, index) => (

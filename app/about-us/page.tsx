@@ -1,5 +1,4 @@
 "use client";
-
 import { Poppins } from "next/font/google";
 
 import Image from "next/image";
