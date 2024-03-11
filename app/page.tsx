@@ -17,21 +17,21 @@ export default function Home() {
         <NavBar />
       </nav>
       <div className="w-full h-screen flex items-center justify-center">
-        <div className="absolute min-h-fit h-screen w-full">
+        <div className="absolute min-h-fit h-screen w-screen">
           <Image
             src="/backgrounds/bhi.jpg"
             alt="Background Image of Bundaran HI"
             quality={100}
-            fill
+            layout="fill"
+            objectFit="cover"
             className="lg:hidden"
-            style={{ objectFit: "contain" }}
           />
           <div className="hidden lg:block">
             <Image
               src="/backgrounds/bhi.jpg"
-              alt="JMUN Background"
-              width={1920}
-              height={1080}
+              alt="Background Image of Bundaran HI"
+              layout="fill"
+              objectFit="cover"
               quality={100}
             />
           </div>
