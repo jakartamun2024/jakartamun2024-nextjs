@@ -1,9 +1,9 @@
 import Link from "next/link";
-import React, { MouseEventHandler, useState } from "react";
+import React from "react";
 import { LuMenu, LuX } from "react-icons/lu";
 
 import Image from "next/image";
-import { Bodoni_Moda, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import { tabs } from "./constant";
 
 import RegisterDropdown from "./registrationdropdown";
