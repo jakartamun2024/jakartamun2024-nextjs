@@ -139,7 +139,7 @@ export default function Home() {
               <p className="text-xl md:text-xl lg:text-2xl font-bold pb-2 text-center text-transparent bg-clip-text bg-gradient-to-b drop-shadow-md from-white to-[#faca6b]">
                 - Transforming Tomorrow -
               </p>
-              <p className="text-center md:text-lg">
+              <p className="text-justify md:text-center md:text-lg">
                 To pave the way for a prosperous future, it is important to
                 initiate transformative actions today. With that, this process
                 begins with each of us. JMUN 2024 aspires to be a platform for
