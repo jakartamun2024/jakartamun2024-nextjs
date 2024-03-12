@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={"w-full h-full inset-0 opacity-100"}>
-        <div className="bg-fixed bg-pucuk-rebung bg-no-repeat bg-cover bg-center">
+        <div className="bg-fixed bg-pucuk-rebung bg-no-repeat bg-cover bg-center text-white">
           <Providers>{children}</Providers>
         </div>
       </body>
