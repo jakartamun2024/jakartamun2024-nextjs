@@ -37,7 +37,7 @@ export default function Home() {
         <div>
           <div className="">
             <h1
-              className={`text-4xl md:text-5xl lg:text-6xl text-center text-transparent bg-clip-text bg-gradient-to-b drop-shadow-xl from-white to-[#faca6b] font-extrabold md:mb-10`}
+              className={`text-4xl md:text-5xl lg:text-6xl text-center text-transparent bg-clip-text bg-gradient-to-b drop-shadow-xl from-white to-[#faca6b] font-extrabold pt-20 md:pt-0 md:mb-10`}
             >
               CONTACT US
             </h1>
@@ -64,7 +64,7 @@ export default function Home() {
                 <p className="text-center">publicaffairs.jmun@isafis.or.id</p>
               </div>
             </div>
-            <div className="flex flex-col md:flex-row w-fit my-10  justify-center mx-auto">
+            <div className="flex flex-col md:flex-row w-fit my-7 md:my-10  justify-center mx-auto">
               <div className="">
                 <p className="text-xl md:text-xl lg:text-3xl font-bold pb-4 text-center text-transparent bg-clip-text bg-gradient-to-b drop-shadow-md from-white to-[#faca6b]">
                   Social Media

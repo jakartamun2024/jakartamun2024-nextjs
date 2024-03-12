@@ -14,21 +14,24 @@ export default function CouncilPage() {
   const onlineRef = useRef(null);
   return (
     <div>
-      <nav className="w-full top-0 z-50">
-        <NavBar offlineRef={offlineRef} onlineRef={onlineRef} />
-      </nav>
-      <div className="w-full h-fit pt-[90px]">
-        <div className="relative w-full h-32 flex items-center justify-center">
-          <div className="absolute inset-0 bg-black opacity-20"></div>
-          <h1
-            className={`text-5xl md:text-7xl font-bold relative ${poppins.className}`}
-          >
-            Councils
-          </h1>
+      <div className="fixed bg-pucuk-rebung bg-no-repeat bg-cover bg-center h-screen w-screen"></div>
+      <div className="absolute">
+        <nav className="w-full top-0 z-50">
+          <NavBar offlineRef={offlineRef} onlineRef={onlineRef} />
+        </nav>
+        <div className="w-full h-fit pt-[90px]">
+          <div className="relative w-full h-32 flex items-center justify-center">
+            <div className="absolute inset-0 bg-black opacity-20"></div>
+            <h1
+              className={`text-5xl md:text-7xl font-bold relative ${poppins.className}`}
+            >
+              Councils
+            </h1>
+          </div>
         </div>
-      </div>
-      <div className="w-full h-full">
-        <CouncilsList offlineRef={offlineRef} onlineRef={onlineRef} />
+        <div className="w-full h-full">
+          <CouncilsList offlineRef={offlineRef} onlineRef={onlineRef} />
+        </div>
       </div>
     </div>
   );
