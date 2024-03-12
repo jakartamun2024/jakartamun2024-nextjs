@@ -1,14 +1,12 @@
+"use client";
 import { Poppins } from "next/font/google";
 
 import {
   faLinkedin,
-  faInstagram,
   faSquareXTwitter,
   faFacebookSquare,
-  faLine,
   faTiktok,
 } from "@fortawesome/free-brands-svg-icons";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import NavBar from "../components/navbar/navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
@@ -101,7 +99,7 @@ export default function Home() {
                   >
                     <FontAwesomeIcon
                       icon={faSquareXTwitter}
-                      className=""
+                      className="block"
                       fontSize={40}
                     />
                   </a>
