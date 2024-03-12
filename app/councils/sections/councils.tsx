@@ -333,8 +333,6 @@ export default function CouncilsList(props: any) {
           <h2 className="text-2xl font-medium text-center md:text-start py-3">
             <span className="text-[#DF6A26]">Council Type</span>:{" "}
             <span className="text-[#B73225]">Advanced</span> - Single Delegate
-            <br />
-            <span className="text-[#DF6A26]">Chamber name</span>: Dewan Nasional
           </h2>
           <div className="">
             <Image
@@ -347,10 +345,6 @@ export default function CouncilsList(props: any) {
               style={{ objectFit: "contain" }}
             />
             <p className="text-justify">
-              <span className="text-lg font-semibold underline underline-offset-4">
-                Introduction to Historical Crisis Committee
-              </span>
-              <br />
               The Crisis Council is an alternative council type that is designed
               around emulating realistic, high-stake conditions that otherwise
               cannot be imitated in conventional UN councils. Following a
@@ -362,27 +356,6 @@ export default function CouncilsList(props: any) {
               Council&apos;s story arc progresses.
             </p>
           </div>
-          <p className="text-justify pt-3">
-            <span className="text-lg font-semibold underline underline-offset-4">
-              Dewan Nasional Description
-            </span>
-            <br />
-            Enacted in 1957, the Dewan Nasional is a national board which stands
-            as the first program established by the Djuanda Cabinet, and was
-            formed as an advisory board. The board is tasked with assisting the
-            cabinet by providing advice and suggestions (whether requested by
-            the cabinet or not), as well as bridging the gap between the
-            government and its citizens. The board was led by Soekarno, and
-            consisted of various regional representatives, who acted the voices
-            of the people, and were expected to deliver the aspirations and
-            concerns of the citizens of their respective regions. While the
-            Dewan Nasional did not hold any direct power within the central
-            government, they were highly influential in the decision-making
-            process of the government, and had a hand in many of its important
-            decrees. Ultimately, the board served as a conduit, channeling the
-            hopes of the people to achieve the national dream of a unified
-            Indonesia.
-          </p>
           <h2 className="text-2xl font-bold text-center py-7 italic text-[#DF6A26]">
             The 1957 National Forum: Drafting a New Unity Beyond the Centralized
             Order
@@ -556,8 +529,8 @@ export default function CouncilsList(props: any) {
             </p>
           </div>
           <h2 className="text-2xl font-bold text-center py-7 italic text-[#DF6A26]">
-            Topic Title: Adjusting to the Emergence of Automation Into the
-            Knowledge and Creative Industry
+            Adjusting to the Emergence of Automation Into the Knowledge and
+            Creative Industry
           </h2>
           <p className="text-justify">
             The organization&apos;s unique tripartite structure brings together
@@ -646,8 +619,9 @@ export default function CouncilsList(props: any) {
             <span className="text-[#DF6A26]">NATO</span>)
           </h1>
           <h2 className="text-2xl font-medium text-center md:text-end py-3">
-            <span className="text-[#DF6A26]">Council Type</span>: Beginner -
-            Single Delegate
+            <span className="text-[#DF6A26]">Council Type</span>:{" "}
+            <span className="text-[#F8D488]">Intermediate</span> - Double
+            Delegate
           </h2>
           <div className="">
             <Image
