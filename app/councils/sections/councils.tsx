@@ -35,7 +35,7 @@ export default function CouncilsList(props: any) {
           className=" text-4xl md:text-5xl text-center font-bold pt-10"
           ref={props.offlineRef}
         >
-          Offline Delegate
+          Offline
         </h2>
         {/* ====== UNICEF ======= */}
         <div className="pt-10 md:pt-16 ">
@@ -521,7 +521,7 @@ export default function CouncilsList(props: any) {
           className="text-5xl text-center font-bold pt-16"
           ref={props.onlineRef}
         >
-          Online Delegate
+          Online
         </h2>
         {/* ====== ILO ====== */}
         <div className="pt-16">
