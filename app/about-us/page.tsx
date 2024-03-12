@@ -53,8 +53,8 @@ export default function Home() {
         </div>
         <div className="z-20 md:hidden">
           <iframe
-            width="400"
-            height="225"
+            width="350"
+            height="197"
             src="https://www.youtube.com/embed/nB3NELoflpg?si=uKZBSk0ie5wE8kHq&autoplay=1&mute=1"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
