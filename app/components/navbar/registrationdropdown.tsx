@@ -79,7 +79,11 @@ export default function RegisterDropdown({ isNav }: { isNav: boolean }) {
               </Menu.Item>
               <Menu.Item>
                 {({ active }) => (
-                  <a href="visa-application">
+                  <a
+                    href="http://bit.ly/JMUN2024VisaApplicationRequest"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button
                       className={`${
                         active ? "bg-[#f55789] text-[#f3f5d8]" : "text-gray-900"
