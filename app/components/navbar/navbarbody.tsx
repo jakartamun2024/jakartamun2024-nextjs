@@ -25,7 +25,7 @@ function NavBarBody(props: any) {
           <Image src="/jmun-logo.png" alt="JMUN logo" fill />
         </div>
         <div className="lg:w-[9.5rem] lg:h-16 md:w-[8.5rem] md:h-14 sm:w-[8rem] sm:h-12 w-[8rem] h-12 ms-4 relative inline-block">
-          <Image src="/jmun2024-title.svg" alt="JMUN2024" fill />
+          <Image src="/jmun2024-title.svg" alt="JMUN2024" fill priority />
         </div>
       </Link>
 
