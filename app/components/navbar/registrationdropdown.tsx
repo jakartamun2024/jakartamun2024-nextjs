@@ -65,6 +65,19 @@ export default function RegisterDropdown({ isNav }: { isNav: boolean }) {
                   </a>
                 )}
               </Menu.Item>
+              <Menu.Item>
+                {({ active }) => (
+                  <a href="visa-application">
+                    <button
+                      className={`${
+                        active ? "bg-[#f55789] text-[#f3f5d8]" : "text-gray-900"
+                      } group flex w-full items-center rounded-md px-2 py-2`}
+                    >
+                    Visa Application
+                    </button>
+                  </a>
+                )}
+              </Menu.Item>
             </div>
           </Menu.Items>
         </Transition>
