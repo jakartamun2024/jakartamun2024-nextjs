@@ -28,7 +28,11 @@ export default function RegisterDropdown({ isNav }: { isNav: boolean }) {
             <div className="px-1 py-1">
               <Menu.Item>
                 {({ active }) => (
-                  <a href="register-delegation">
+                  <a
+                    href="http://bit.ly/JMUN2024DelegationForm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button
                       className={`${
                         active ? "bg-[#f55789] text-[#f3f5d8]" : "text-gray-900"
@@ -41,7 +45,11 @@ export default function RegisterDropdown({ isNav }: { isNav: boolean }) {
               </Menu.Item>
               <Menu.Item>
                 {({ active }) => (
-                  <a href="register-online">
+                  <a
+                    href="http://bit.ly/JMUN24OnlineForm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button
                       className={`${
                         active ? "bg-[#f55789] text-[#f3f5d8]" : "text-gray-900"
@@ -54,7 +62,11 @@ export default function RegisterDropdown({ isNav }: { isNav: boolean }) {
               </Menu.Item>
               <Menu.Item>
                 {({ active }) => (
-                  <a href="register-offline">
+                  <a
+                    href="http://bit.ly/JMUN2024OfflineForm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button
                       className={`${
                         active ? "bg-[#f55789] text-[#f3f5d8]" : "text-gray-900"
@@ -73,7 +85,7 @@ export default function RegisterDropdown({ isNav }: { isNav: boolean }) {
                         active ? "bg-[#f55789] text-[#f3f5d8]" : "text-gray-900"
                       } group flex w-full items-center rounded-md px-2 py-2`}
                     >
-                    Visa Application
+                      Visa Application
                     </button>
                   </a>
                 )}
