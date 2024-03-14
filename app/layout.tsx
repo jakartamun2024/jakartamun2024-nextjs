@@ -1,3 +1,4 @@
+import Head from "next/head";
 import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
@@ -13,12 +14,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <>
+      <Head>
+        <meta name="robots" content="index, follow" />
+        <html lang="en" />
+      </Head>
       <body className={"w-full h-full inset-0 opacity-100"}>
         <div className="bg-fixed bg-pucuk-rebung bg-no-repeat bg-cover bg-center text-white">
           <Providers>{children}</Providers>
         </div>
       </body>
-    </html>
+    </>
   );
 }
