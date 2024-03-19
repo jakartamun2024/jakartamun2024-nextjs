@@ -18,6 +18,7 @@ export default function RootLayout({
       <Head>
         <meta name="robots" content="index, follow" />
         <html lang="en" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
       <body className={"w-full h-full inset-0 opacity-100"}>
         <div className="bg-fixed bg-pucuk-rebung bg-no-repeat bg-cover bg-center text-white">
