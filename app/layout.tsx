@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <>
       <Head>
         <meta name="robots" content="index, follow" />
         <html lang="en" />
@@ -25,6 +25,6 @@ export default function RootLayout({
           <Providers>{children}</Providers>
         </div>
       </body>
-    </html>
+    </>
   );
 }
