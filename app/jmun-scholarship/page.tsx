@@ -82,7 +82,7 @@ export default function Home() {
             <div className="p-10 lg:px-40">
               <div className="flex flex-col justify-center content-center gap-12">
                 {awardees.map(({ picture, name, testimony }, index) => (
-                  <div className="flex flex-col sm:flex-row justify-center">
+                  <div key={index} className="flex flex-col sm:flex-row justify-center">
                     <Image
                       src={picture}
                       alt="Picture of past awardee"
@@ -99,7 +99,7 @@ export default function Home() {
 
                     <div className="ms-4 self-center sm:w-1/2">
                       <p className="font-bold mb-2 text-center sm:text-left">{name}</p>
-                      <p>"{testimony}"</p>
+                      <p>&quot;{testimony}&quot;</p>
                     </div>
                   </div>
                 ))}
@@ -113,7 +113,7 @@ export default function Home() {
             </h1>
             <div className="p-10 lg:px-40 sm:w-3/4 mx-auto">
               {faqs.map(({ q, a }, index) => (
-                <Disclosure as="div" className={'mb-2'}>
+                <Disclosure as="div" key={index} className={'mb-2'}>
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex w-full justify-between rounded-lg bg-orange-100 px-4 py-2 text-left text-md font-medium text-black hover:bg-orange-200 focus:outline-none focus-visible:ring focus-visible:ring-orange-500/75">
