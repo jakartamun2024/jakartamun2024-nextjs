@@ -30,19 +30,19 @@ export const faqs = [
   },
   {
     q: "What are the requirements to apply for the JMUN 2024 Scholarship?",
-    a: "The requirements for JMUN 2024 Scholarship applicants are as follows.\na. High school or undergraduate students in the age of 13-24 years old.\nb. Have a high willingness in learning and participate actively in MUN.\nc. Will commit in joining the whole event of JMUN 2024.",
+    a: "The requirements for JMUN 2024 Scholarship applicants are as follows.\na. High school or undergraduate students in the age of 13-24 years old.\nb. Have a high willingness in learning and participating actively in MUN.\nc. Will commit in joining the whole event of JMUN 2024.",
   },
   {
     q: "How can I apply for the JMUN 2024 Scholarship?",
-    a: "Applying for the JMUN 2024 Scholarship will be easy and won’t take you much time. You may simply fill in the form through the link bit.ly/JMUN2024Scholarship. Through that form, you will need to fill in your personal information and upload your CV as well as your motivation letter as requested. Afterwards, there will be an interview for applicants who passed the administration selection.",
+    a: "Applying for the JMUN 2024 Scholarship will be easy and won't take you much time. You may simply fill in the form through the link bit.ly/JMUN2024Scholarship. Through that form, you will need to fill in your personal information and upload your CV as well as your motivation letter as requested. You will also be required to post a twibbon on your Instagram profile. Afterwards, there will be an interview for applicants who passed the administration selection.",
   },
   {
     q: "How are scholarship recipients selected?",
     a: "Scholarship recipients will be selected based on their demonstrated passion for MUN, commitment to excellence, and potential to make a positive impact in the field. The selection process will involve careful review of all applications by the JMUN 2024 Scholarship Committee.",
   },
   {
-    q: "When will the scholarship winners be announced?",
-    a: "The announcement of scholarship winners will be made after the completion of the selection process. Specific dates for the announcement will be communicated in due course.",
+    q: "When will the scholarship awardees be announced?",
+    a: "The announcement of the scholarship awardees will be made after the completion of the selection process on 19th of April 2024.",
   },
   {
     q: "Can international students apply for the scholarship?",
