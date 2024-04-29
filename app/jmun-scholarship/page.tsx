@@ -36,7 +36,7 @@ export default function Home() {
       <div className="flex items-center justify-center py-36 pb-12">
         <div className="absolute h-screen w-full">
           <Image
-            src="/backgrounds/scholarship.jpg"
+            src="/backgrounds/scholarship.webp"
             alt="Background Image of Aerial shot of Jakarta"
             quality={100}
             fill

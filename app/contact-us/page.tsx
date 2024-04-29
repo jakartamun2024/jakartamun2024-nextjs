@@ -26,8 +26,8 @@ export default function Home() {
         className={`${poppins.className} w-screen h-screen flex flex-col justify-center bg-gradient-to-b from-[#DF6A26] to-[#f55789] relative`}
       >
         <Image
-          src="/backgrounds/image.jpg"
-          alt="Background Image of Bundaran HI"
+          src="/backgrounds/image.webp"
+          alt="Background Image of Jakarta View"
           width={1920}
           height={700}
           style={{ objectFit: "cover" }}

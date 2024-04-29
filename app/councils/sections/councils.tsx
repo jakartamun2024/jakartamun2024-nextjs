@@ -36,6 +36,7 @@ export default function CouncilsList(props: any) {
           ref={props.offlineRef}
         >
           Offline
+          <div id="council-unicef"></div>
         </h2>
         {/* ====== UNICEF ======= */}
         <div className="pt-10 md:pt-16 ">
@@ -113,6 +114,7 @@ export default function CouncilsList(props: any) {
             all the while exploring new and improved ways in safeguarding and
             creating a comfortable childhood for all children.
           </p>
+          <div id="council-unwto"></div>
         </div>
         {/* ====== UNICEF ====== */}
         {/* ====== UNWTO ====== */}
@@ -185,6 +187,7 @@ export default function CouncilsList(props: any) {
             surrounding sustainable cultural tourism, but to also consider the
             views of native communities.
           </p>
+          <div id="council-uefa"></div>
         </div>
         {/* ====== UNWTO ====== */}
         {/* ====== UEFA ====== */}
@@ -255,6 +258,7 @@ export default function CouncilsList(props: any) {
             limit the spending of every European football club and to create
             healthier and more financially stable regulations.
           </p>
+          <div id="council-wwf"></div>
         </div>
         {/* ====== UEFA ====== */}
         {/* ====== WWF ====== */}
@@ -322,7 +326,9 @@ export default function CouncilsList(props: any) {
             policymaking in a manner that puts sustainability and people&apos;s
             well-being at the forefront.
           </p>
+          <div id="council-hcc"></div>
         </div>
+
         {/* ====== WWF ====== */}
         {/* ====== HCC ====== */}
         <div className="pt-16">
@@ -379,6 +385,7 @@ export default function CouncilsList(props: any) {
             threats of disintegration? Or will the authority of the central
             government crumble under the pressure of separatist forces?
           </p>
+          <div id="council-unsc"></div>
         </div>
         {/* ====== HCC ====== */}
         {/* ====== UNSC ====== */}
@@ -452,6 +459,7 @@ export default function CouncilsList(props: any) {
             reforming the current security order in the Indo-Pacific region,
             whilst treading on clashing sovereignty claims.
           </p>
+          <div id="council-press"></div>
         </div>
         {/* ====== UNSC ====== */}
         {/* ====== PRESS CORPS ====== */}
@@ -495,6 +503,7 @@ export default function CouncilsList(props: any) {
           ref={props.onlineRef}
         >
           Online
+          <div id="council-ilo"></div>
         </h2>
         {/* ====== ILO ====== */}
         <div className="pt-16">
@@ -543,6 +552,7 @@ export default function CouncilsList(props: any) {
             decent work, by 2030. Come join our fight in realizing economic
             equality for all!
           </p>
+          <div id="council-unhrc"></div>
         </div>
         {/* ====== ILO ====== */}
         {/* ====== UNHRC ====== */}
@@ -610,6 +620,7 @@ export default function CouncilsList(props: any) {
             are these acts deplorable under any circumstances and undermine the
             criminal justice&apos;s spirit of fairness?
           </p>
+          <div id="council-nato"></div>
         </div>
         {/* ====== UNHRC ====== */}
         {/* ====== NATO ====== */}
