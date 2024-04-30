@@ -9,6 +9,7 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
+import ImageSlider from "./components/navbar/imageslide";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -58,6 +59,8 @@ export default function Home() {
           </h2>
         </div>
       </div>
+      
+      
       <div className="bg-orange-500 py-16">
         <div className="container mx-auto px-2 md:px-20">
           <div className="flex flex-col md:flex-row items-center md:items-start">
@@ -193,6 +196,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+
       <div className="bg-orange-700 py-16">
         <div className="container mx-auto px-2 md:px-20">
           <h2
@@ -602,6 +607,12 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+
+      <div className="bg-orange-500 py-16 h-96 flex-row items-end">
+              <ImageSlider/>
+      </div>
+
     </div>
   );
 }
