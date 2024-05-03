@@ -60,7 +60,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-orange-500 py-16">
+      <div className="bg-gradient-to-b from-[#F97316] to-[#C2410C] py-16">
         <div className="container mx-auto px-2 md:px-20">
           <div className="flex flex-col md:flex-row items-center md:items-start">
             <div className="md:w-1/3 mb-8 md:mb-0 flex flex-col items-center">
@@ -606,7 +606,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-orange-500 py-10 h-full flex-row items-end">
+      <div className="bg-gradient-to-b from-[#C2410C] to-[#F97316] py-10 h-full flex-row items-end">
         <h2
           className={`${poppins.className} text-5xl font-bold mb-8 text-center text-white underline`}
         >
