@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -11,11 +11,12 @@ function NextArrow(props) {
       className={`${className} arrow-right`}
       style={{
         ...style,
-        position: 'absolute',
+        position: "absolute",
+        zIndex: 1,
         right: 0,
-        top: '50%',
-        transform: 'translateY(-50%)',
-        background: 'bg-orange-700',
+        top: "50%",
+        transform: "translateY(-50%)",
+        background: "bg-orange-700",
       }}
       onClick={onClick}
     >
@@ -41,13 +42,13 @@ function PrevArrow(props) {
       className={`${className} arrow-left`}
       style={{
         ...style,
-        position: 'absolute',
-          left: 0,
-          top: '50%',
-          transform: 'translateY(-50%)',
-        background: 'bg-orange-700',
-
-      }}      
+        position: "absolute",
+        zIndex: 1,
+        left: 0,
+        top: "50%",
+        transform: "translateY(-50%)",
+        background: "bg-orange-700",
+      }}
       onClick={onClick}
     >
       <svg
@@ -71,100 +72,81 @@ function ImageSlider() {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
-    nextArrow: <PrevArrow/>,
-    prevArrow: <NextArrow/>,
-    initialSlide:0,
-    swipeToSlide:true
+    slidesToScroll: 1,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+    initialSlide: 0,
+    swipeToSlide: true,
+    centerMode: true,
+    centerPadding: "100px",
+    autoPlay: true,
+    autoPlaySpeed: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          centerPadding: "0",
+        },
+      },
+    ],
   };
 
   return (
-    <div className="slider-container">
-      <Slider {...settings}>
-        <div>
-          <Image
-            src="/KimberlyLaurencia.png"
-            alt="Founder's Picture"
-            width={300}
-            height={300}
-            quality={100}
-            className="full mx-auto"
-          />
-        </div>
-        <div>
-          <Image
-            src="/KimberlyLaurencia.png"
-            alt="Founder's Picture"
-            width={300}
-            height={300}
-            quality={100}
-            className="full mx-auto"
-          />
-        </div>
-        <div>
-          <Image
-            src="/KimberlyLaurencia.png"
-            alt="Founder's Picture"
-            width={300}
-            height={300}
-            quality={100}
-            className="full mx-auto"
-          />        </div>
-        <div>
-          <Image
-            src="/KimberlyLaurencia.png"
-            alt="Founder's Picture"
-            width={300}
-            height={300}
-            quality={100}
-            className="full mx-auto"
-          />        </div>
-        <div>
-          <Image
-            src="/KimberlyLaurencia.png"
-            alt="Founder's Picture"
-            width={300}
-            height={300}
-            quality={100}
-            className="full mx-auto"
-          />        </div>
-        <div>
-          <Image
-            src="/KimberlyLaurencia.png"
-            alt="Founder's Picture"
-            width={300}
-            height={300}
-            quality={100}
-            className="full mx-auto"
-          />        </div>
-        <div>
-          <Image
-            src="/KimberlyLaurencia.png"
-            alt="Founder's Picture"
-            width={300}
-            height={300}
-            quality={100}
-            className="full mx-auto"
-          />        </div>
-        <div>
-          <Image
-            src="/KimberlyLaurencia.png"
-            alt="Founder's Picture"
-            width={300}
-            height={300}
-            quality={100}
-            className="full mx-auto"
-          />        </div>
-        <div>
-          <Image
-            src="/KimberlyLaurencia.png"
-            alt="Founder's Picture"
-            width={300}
-            height={300}
-            quality={100}
-            className="full mx-auto"
-          />        </div>
-      </Slider>
+    <div className="w-full">
+      <div className="relative w-full">
+        <style jsx>{`
+          .slider-item {
+            transition: transform 0.3s ease;
+          }
+          .slider-item.slick-center {
+            transform: scale(1.2);
+            z-index: 1;
+          }
+        `}</style>
+        <Slider {...settings}>
+          <div className="slider-item">
+            <Image
+              src="/documentation/1.webp"
+              alt="JMUN 2023 Documentations"
+              width={640}
+              height={360}
+              quality={100}
+              className="mx-auto px-2"
+            />
+          </div>
+          <div className="slider-item">
+            <Image
+              src="/documentation/2.webp"
+              alt="JMUN 2023 Documentations"
+              width={640}
+              height={360}
+              quality={100}
+              className="mx-auto px-2"
+            />
+          </div>
+          <div className="slider-item">
+            <Image
+              src="/documentation/3.webp"
+              alt="JMUN 2023 Documentations"
+              width={640}
+              height={360}
+              quality={100}
+              className="mx-auto px-2"
+            />
+          </div>
+          <div className="slider-item">
+            <Image
+              src="/documentation/4.webp"
+              alt="JMUN 2023 Documentations"
+              width={640}
+              height={360}
+              quality={100}
+              className="mx-auto px-2"
+            />
+          </div>
+        </Slider>
+      </div>
     </div>
   );
 }
