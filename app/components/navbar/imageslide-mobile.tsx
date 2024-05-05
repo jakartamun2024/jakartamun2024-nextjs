@@ -86,19 +86,19 @@ function PrevArrow(props: ArrowProps) {
   );
 }
 
-function ImageSlider() {
+function ImageSliderMobile() {
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     initialSlide: 0,
     swipeToSlide: true,
     centerMode: true,
-    centerPadding: "100px",
+    centerPadding: "20px",
     autoplay: true, // Enable autoplay
     autoplaySpeed: 4000,
   };
@@ -116,104 +116,104 @@ function ImageSlider() {
           }
         `}</style>
         <Slider {...settings}>
-          <div className="py-3 slider-item transition-transform duration-300 ease-in-out hover:scale-110 outline-none">
+          <div className="py-3 slider-item outline-none">
             <Image
               src="/documentation/1.webp"
               alt="JMUN 2023 Documentations"
               width={640}
               height={360}
               quality={100}
-              className="mx-auto rounded-3xl py-1 px-1 transition-colors duration-1000 ease-in-out hover:bg-[#DF6A26]"
+              className="mx-auto rounded-3xl py-1 px-1"
             />
           </div>
-          <div className="py-3 slider-item transition-transform duration-300 ease-in-out hover:scale-110 outline-none">
+          <div className="py-3 slider-item outline-none">
             <Image
               src="/documentation/2.webp"
               alt="JMUN 2023 Documentations"
               width={640}
               height={360}
               quality={100}
-              className="mx-auto rounded-3xl py-1 px-1 transition-colors duration-1000 ease-in-out hover:bg-[#DF6A26]"
+              className="mx-auto rounded-3xl py-1 px-1"
             />
           </div>
-          <div className="py-3 slider-item transition-transform duration-300 ease-in-out hover:scale-110 outline-none">
+          <div className="py-3 slider-item outline-none">
             <Image
               src="/documentation/3.webp"
               alt="JMUN 2023 Documentations"
               width={640}
               height={360}
               quality={100}
-              className="mx-auto rounded-3xl py-1 px-1 transition-colors duration-1000 ease-in-out hover:bg-[#DF6A26]"
+              className="mx-auto rounded-3xl py-1 px-1"
             />
           </div>{" "}
-          <div className="py-3 slider-item transition-transform duration-300 ease-in-out hover:scale-110 outline-none">
+          <div className="py-3 slider-item outline-none">
             <Image
               src="/documentation/4.webp"
               alt="JMUN 2023 Documentations"
               width={640}
               height={360}
               quality={100}
-              className="mx-auto rounded-3xl py-1 px-1 transition-colors duration-1000 ease-in-out hover:bg-[#DF6A26]"
+              className="mx-auto rounded-3xl py-1 px-1"
             />
           </div>
-          <div className="py-3 slider-item transition-transform duration-300 ease-in-out hover:scale-110 outline-none">
+          <div className="py-3 slider-item outline-none">
             <Image
               src="/documentation/5.webp"
               alt="JMUN 2023 Documentations"
               width={640}
               height={360}
               quality={100}
-              className="mx-auto rounded-3xl py-1 px-1 transition-colors duration-1000 ease-in-out hover:bg-[#DF6A26]"
+              className="mx-auto rounded-3xl py-1 px-1"
             />
           </div>
-          <div className="py-3 slider-item transition-transform duration-300 ease-in-out hover:scale-110 outline-none">
+          <div className="py-3 slider-item outline-none">
             <Image
               src="/documentation/6.webp"
               alt="JMUN 2023 Documentations"
               width={640}
               height={360}
               quality={100}
-              className="mx-auto rounded-3xl py-1 px-1 transition-colors duration-1000 ease-in-out hover:bg-[#DF6A26]"
+              className="mx-auto rounded-3xl py-1 px-1"
             />
           </div>
-          <div className="py-3 slider-item transition-transform duration-300 ease-in-out hover:scale-110 outline-none">
+          <div className="py-3 slider-item outline-none">
             <Image
               src="/documentation/7.webp"
               alt="JMUN 2023 Documentations"
               width={640}
               height={360}
               quality={100}
-              className="mx-auto rounded-3xl py-1 px-1 transition-colors duration-1000 ease-in-out hover:bg-[#DF6A26]"
+              className="mx-auto rounded-3xl py-1 px-1"
             />
           </div>
-          <div className="py-3 slider-item transition-transform duration-300 ease-in-out hover:scale-110 outline-none">
+          <div className="py-3 slider-item outline-none">
             <Image
               src="/documentation/8.webp"
               alt="JMUN 2023 Documentations"
               width={640}
               height={360}
               quality={100}
-              className="mx-auto rounded-3xl py-1 px-1 transition-colors duration-1000 ease-in-out hover:bg-[#DF6A26]"
+              className="mx-auto rounded-3xl py-1 px-1"
             />
           </div>
-          <div className="py-3 slider-item transition-transform duration-300 ease-in-out hover:scale-110 outline-none">
+          <div className="py-3 slider-item outline-none">
             <Image
               src="/documentation/9.webp"
               alt="JMUN 2023 Documentations"
               width={640}
               height={360}
               quality={100}
-              className="mx-auto rounded-3xl py-1 px-1 transition-colors duration-1000 ease-in-out hover:bg-[#DF6A26]"
+              className="mx-auto rounded-3xl py-1 px-1"
             />
           </div>
-          <div className="py-3 slider-item transition-transform duration-300 ease-in-out hover:scale-110 outline-none">
+          <div className="py-3 slider-item outline-none">
             <Image
               src="/documentation/10.webp"
               alt="JMUN 2023 Documentations"
               width={640}
               height={360}
               quality={100}
-              className="mx-auto rounded-3xl py-1 px-1 transition-colors duration-1000 ease-in-out hover:bg-[#DF6A26]"
+              className="mx-auto rounded-3xl py-1 px-1"
             />
           </div>
         </Slider>
@@ -222,4 +222,4 @@ function ImageSlider() {
   );
 }
 
-export default ImageSlider;
+export default ImageSliderMobile;

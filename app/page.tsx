@@ -10,6 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import ImageSlider from "./components/navbar/imageslide";
+import ImageSliderMobile from "./components/navbar/imageslide-mobile";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -65,7 +66,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center md:items-start">
             <div className="md:w-1/3 mb-8 md:mb-0 flex flex-col items-center">
               <Image
-                src="/KimberlyLaurencia.png"
+                src="/KimberlyLaurencia.webp"
                 alt="Founder's Picture"
                 width={300}
                 height={300}
@@ -216,7 +217,7 @@ export default function Home() {
                 </div>
 
                 <Image
-                  src="/council-icon/hcc.png"
+                  src="/council-icon/hcc.webp"
                   alt="HCC Logo"
                   width={80}
                   height={80}
@@ -235,9 +236,10 @@ export default function Home() {
                   Offline - Single -{" "}
                   <span className="bg-red-500 rounded-lg px-2">Advanced</span>
                 </span>
+                <div></div>
                 <Link
                   href="/councils#council-hcc"
-                  className="mt-2 font-bold rounded-md px-2 hover:underline"
+                  className="mt-2 font-bold rounded-md px-2 hover:text-[#03070C] transition-colors duration-300 ease-in-out hover:bg-[#faca6b]"
                 >
                   View More
                 </Link>
@@ -256,7 +258,7 @@ export default function Home() {
                 </div>
 
                 <Image
-                  src="/council-icon/UNSC.png"
+                  src="/council-icon/UNSC.webp"
                   alt="UNSC Logo"
                   width={80}
                   height={80}
@@ -277,7 +279,7 @@ export default function Home() {
                 </span>
                 <Link
                   href="/councils#council-unsc"
-                  className="mt-2 font-bold rounded-md px-2 hover:underline"
+                  className="mt-2 font-bold rounded-md px-2 hover:text-[#03070C] transition-colors duration-300 ease-in-out hover:bg-[#faca6b]"
                 >
                   View More
                 </Link>
@@ -296,7 +298,7 @@ export default function Home() {
                 </div>
 
                 <Image
-                  src="/council-icon/UEFA.png"
+                  src="/council-icon/UEFA.webp"
                   alt="UEFA Logo"
                   width={80}
                   height={80}
@@ -319,7 +321,7 @@ export default function Home() {
                 </span>
                 <Link
                   href="/councils#council-uefa"
-                  className="mt-2 font-bold rounded-md px-2 hover:underline"
+                  className="mt-2 font-bold rounded-md px-2 hover:text-[#03070C] transition-colors duration-300 ease-in-out hover:bg-[#faca6b]"
                 >
                   View More
                 </Link>
@@ -338,7 +340,7 @@ export default function Home() {
                 </div>
 
                 <Image
-                  src="/council-icon/WWF.png"
+                  src="/council-icon/WWF.webp"
                   alt="WWF Logo"
                   width={80}
                   height={80}
@@ -361,7 +363,7 @@ export default function Home() {
                 </span>
                 <Link
                   href="/councils#council-wwf"
-                  className="mt-2 font-bold rounded-md px-2 hover:underline"
+                  className="mt-2 font-bold rounded-md px-2 hover:text-[#03070C] transition-colors duration-300 ease-in-out hover:bg-[#faca6b]"
                 >
                   View More
                 </Link>
@@ -380,7 +382,7 @@ export default function Home() {
                 </div>
 
                 <Image
-                  src="/council-icon/UNWTO.png"
+                  src="/council-icon/UNWTO.webp"
                   alt="UNWTO Logo"
                   width={80}
                   height={80}
@@ -401,7 +403,7 @@ export default function Home() {
                 </span>
                 <Link
                   href="/councils#council-unwto"
-                  className="mt-2 font-bold rounded-md px-2 hover:underline"
+                  className="mt-2 font-bold rounded-md px-2 hover:text-[#03070C] transition-colors duration-300 ease-in-out hover:bg-[#faca6b]"
                 >
                   View More
                 </Link>
@@ -420,7 +422,7 @@ export default function Home() {
                 </div>
 
                 <Image
-                  src="/council-icon/UNICEF.png"
+                  src="/council-icon/UNICEF.webp"
                   alt="UNICEF Logo"
                   width={150}
                   height={150}
@@ -441,7 +443,7 @@ export default function Home() {
                 </span>
                 <Link
                   href="/councils#council-unicef"
-                  className="mt-2 font-bold rounded-md px-2 hover:underline"
+                  className="mt-2 font-bold rounded-md px-2 hover:text-[#03070C] transition-colors duration-300 ease-in-out hover:bg-[#faca6b]"
                 >
                   View More
                 </Link>
@@ -460,7 +462,7 @@ export default function Home() {
                 </div>
 
                 <Image
-                  src="/council-icon/NATO.png"
+                  src="/council-icon/NATO.webp"
                   alt="NATO Logo"
                   width={80}
                   height={80}
@@ -483,7 +485,7 @@ export default function Home() {
                 </span>
                 <Link
                   href="/councils#council-nato"
-                  className="mt-2 font-bold rounded-md px-2 hover:underline"
+                  className="mt-2 font-bold rounded-md px-2 hover:text-[#03070C] transition-colors duration-300 ease-in-out hover:bg-[#faca6b]"
                 >
                   View More
                 </Link>
@@ -502,7 +504,7 @@ export default function Home() {
                 </div>
 
                 <Image
-                  src="/council-icon/UNHRC.png"
+                  src="/council-icon/UNHRC.webp"
                   alt="UNHRC Logo"
                   width={80}
                   height={80}
@@ -523,7 +525,7 @@ export default function Home() {
                 </span>
                 <Link
                   href="/councils#council-unhrc"
-                  className="mt-2 font-bold rounded-md px-2 hover:underline"
+                  className="mt-2 font-bold rounded-md px-2 hover:text-[#03070C] transition-colors duration-300 ease-in-out hover:bg-[#faca6b]"
                 >
                   View More
                 </Link>
@@ -542,7 +544,7 @@ export default function Home() {
                 </div>
 
                 <Image
-                  src="/council-icon/ILO.png"
+                  src="/council-icon/ILO.webp"
                   alt="ILO Logo"
                   width={80}
                   height={80}
@@ -563,7 +565,7 @@ export default function Home() {
                 </span>
                 <Link
                   href="/councils#council-ilo"
-                  className="mt-2 font-bold rounded-md px-2 hover:underline"
+                  className="mt-2 font-bold rounded-md px-2 hover:text-[#03070C] transition-colors duration-300 ease-in-out hover:bg-[#faca6b]"
                 >
                   View More
                 </Link>
@@ -582,7 +584,7 @@ export default function Home() {
                 </div>
 
                 <Image
-                  src="/council-icon/PRESS.png"
+                  src="/council-icon/PRESS.webp"
                   alt="PRESS Logo"
                   width={80}
                   height={80}
@@ -596,7 +598,7 @@ export default function Home() {
                 </span>
                 <Link
                   href="/councils#council-press"
-                  className="mt-2 font-bold rounded-md px-2 hover:underline"
+                  className="mt-2 font-bold rounded-md px-2 hover:text-[#03070C] transition-colors duration-300 ease-in-out hover:bg-[#faca6b]"
                 >
                   View More
                 </Link>
@@ -606,13 +608,18 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-b from-[#C2410C] to-[#F97316] py-10 h-full flex-row items-end">
+      <div className="bg-gradient-to-b from-[#C2410C] to-[#F97316] py-10 h-full flex-row items-end pb-20">
         <h2
           className={`${poppins.className} text-5xl font-bold mb-8 text-center text-white underline`}
         >
           JMUN 2023
         </h2>
-        <ImageSlider />
+        <div className="hidden md:block">
+          <ImageSlider />
+        </div>
+        <div className="md:hidden">
+          <ImageSliderMobile />
+        </div>
       </div>
     </div>
   );

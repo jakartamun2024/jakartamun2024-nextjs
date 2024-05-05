@@ -1,6 +1,7 @@
 "use client";
 import { Poppins } from "next/font/google";
 import Image from "next/image";
+import styles from "../../styles/styles.module.css";
 import { useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 
@@ -30,7 +31,9 @@ export default function CouncilsList(props: any) {
 
   return (
     <div className={`w-full ${poppins.className} bg-black bg-opacity-70`}>
-      <div className="flex flex-col w-full px-3 md:w-2/3 md:p-0 mx-auto divide-y-2 divide-white gap-10 md:gap-16 ">
+      <div
+        className={`flex flex-col w-full px-3 md:w-2/3 md:p-0 mx-auto divide-y-2 divide-white gap-10 md:gap-16  ${styles.animatesTwo}`}
+      >
         <h2
           className=" text-4xl md:text-5xl text-center font-bold pt-10"
           ref={props.offlineRef}
@@ -50,7 +53,7 @@ export default function CouncilsList(props: any) {
           </h2>
           <div className="">
             <Image
-              src="/council-icon/UNICEF.png"
+              src="/council-icon/UNICEF.webp"
               alt="UNICEF Icon"
               height={200}
               width={200}
@@ -129,7 +132,7 @@ export default function CouncilsList(props: any) {
           </h2>
           <div className="">
             <Image
-              src="/council-icon/UNWTO.png"
+              src="/council-icon/UNWTO.webp"
               alt="UNWTO Icon"
               height={180}
               width={180}
@@ -203,7 +206,7 @@ export default function CouncilsList(props: any) {
           </h2>
           <div className="">
             <Image
-              src="/council-icon/UEFA.png"
+              src="/council-icon/UEFA.webp"
               alt="UEFA Icon"
               height={180}
               width={180}
@@ -273,7 +276,7 @@ export default function CouncilsList(props: any) {
           </h2>
           <div className="">
             <Image
-              src="/council-icon/WWF.png"
+              src="/council-icon/WWF.webp"
               alt="WWF Icon"
               height={150}
               width={150}
@@ -342,7 +345,7 @@ export default function CouncilsList(props: any) {
           </h2>
           <div className="">
             <Image
-              src="/council-icon/HCC.png"
+              src="/council-icon/HCC.webp"
               alt="HCC Icon"
               height={200}
               width={200}
@@ -400,7 +403,7 @@ export default function CouncilsList(props: any) {
           </h2>
           <div className="">
             <Image
-              src="/council-icon/UNSC.png"
+              src="/council-icon/UNSC.webp"
               alt="UNSC Icon"
               height={200}
               width={200}
@@ -473,7 +476,7 @@ export default function CouncilsList(props: any) {
           </h2>
           <div className="">
             <Image
-              src="/council-icon/PRESS.png"
+              src="/council-icon/PRESS.webp"
               alt="Press Icon"
               height={200}
               width={200}
@@ -517,7 +520,7 @@ export default function CouncilsList(props: any) {
           </h2>
           <div className="">
             <Image
-              src="/council-icon/ilo.png"
+              src="/council-icon/ilo.webp"
               alt="ILO Icon"
               height={200}
               width={200}
@@ -567,7 +570,7 @@ export default function CouncilsList(props: any) {
           </h2>
           <div className="">
             <Image
-              src="/council-icon/unhrc.png"
+              src="/council-icon/unhrc.webp"
               alt="UNHRC Icon"
               height={200}
               width={200}
@@ -636,7 +639,7 @@ export default function CouncilsList(props: any) {
           </h2>
           <div className="">
             <Image
-              src="/council-icon/NATO.png"
+              src="/council-icon/NATO.webp"
               alt="NATO Icon"
               height={200}
               width={200}

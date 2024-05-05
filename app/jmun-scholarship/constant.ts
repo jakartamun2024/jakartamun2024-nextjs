@@ -1,18 +1,18 @@
 export const awardees = [
   {
-    picture: "/awardees/Frederick.jpg",
+    picture: "/awardees/Frederick.webp",
     name: "Frederick James Permana",
     testimony:
       "I would like to extend my utmost gratitude to the JMUN committee for the splendid opportunity to be a part of one of Indonesia’s biggest MUNs which undoubtedly has had an impact on both my career and my MUN abilities. Not only did it allow me to hone my current skills but it also taught me valuable lessons and gave me fun memories I would continue to reminisce upon throughout the rest of my MUN career. I hope such great things may be bestowed upon many others that decide to follow this same route.",
   },
   {
-    picture: "/awardees/Maylyn.jpg",
+    picture: "/awardees/Maylyn.webp",
     name: "Maylyn Fidelia",
     testimony:
       "I am deeply honoured and grateful to have been chosen as an awardee of the JMUN Scholarship. With this scholarship, I am excited to broaden my diplomatic, public speaking, and leadership skills as well as contribute meaningfully to society. I extend my heartfelt appreciation to JMUN for believing in my potential and investing in my future. Commendations to JMUN for providing this scholarship exceling youths in diplomacy.",
   },
   {
-    picture: "/awardees/Shriyans.JPG",
+    picture: "/awardees/Shriyans.webp",
     name: "Shriyans Maddikunta",
     testimony:
       "It gave me immense pride when I got the prestigious chance of being a part of the JMUN Scholarship program. I am glad to have been recognised and given this platform to showcase my debating talent and unleash my diplomatic potential. Participating in JMUN not only provided me with a plethora of meaningful opportunities to expand my horizons, it also allowed me to interact with new people and broaden my outlook towards the world. Kudos to the team for making JMUN such an apt experience for everyone, catering to the needs of international delegates too! Apply today, a transformative experience awaits!",
