@@ -146,7 +146,8 @@ export default function Home() {
               <p className={`${poppins.className} text-lg leading-normal mb-4`}>
                 Welcome to the{" "}
                 <strong>
-                  Jakarta International Model United Nations ("JMUN") 2024
+                  Jakarta International Model United Nations (&quot;JMUN&quot;)
+                  2024
                 </strong>
                 . My name is Kimberly Laurencia Sanjaya, and it is with great
                 honor that I serve as the Secretary-General for the fourteenth
@@ -157,12 +158,12 @@ export default function Home() {
                 Since 2011, JMUN has been one of the most prestigious MUN
                 conferences in Indonesia, gathering more than 300 participants
                 from around the world. This year, JMUN is making a triumphant
-                return with the grand theme "The Global Enlightenment: Advancing
-                Initiatives for A Better Tomorrow" which aims to invite everyone
-                to participate in transforming tomorrow. Inspired by the vibrant
-                culture of Betawi, we have chosen the color orange which not
-                only symbolizes a number of Betawi cultural elements but also
-                signifies warmth and welcome.
+                return with the grand theme &quot;The Global Enlightenment:
+                Advancing Initiatives for A Better Tomorrow&quot; which aims to
+                invite everyone to participate in transforming tomorrow.
+                Inspired by the vibrant culture of Betawi, we have chosen the
+                color orange which not only symbolizes a number of Betawi
+                cultural elements but also signifies warmth and welcome.
               </p>
               <p className={`${poppins.className} text-lg leading-normal mb-8`}>
                 With 10 councils and an innovative series of events, JMUN 2024
