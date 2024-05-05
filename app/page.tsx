@@ -218,7 +218,7 @@ export default function Home() {
                 </div>
 
                 <Image
-                  src="/council-icon/hcc.webp"
+                  src="/council-icon/HCC.webp"
                   alt="HCC Logo"
                   width={80}
                   height={80}
@@ -505,7 +505,7 @@ export default function Home() {
                 </div>
 
                 <Image
-                  src="/council-icon/UNHRC.webp"
+                  src="/council-icon/unhrc.webp"
                   alt="UNHRC Logo"
                   width={80}
                   height={80}
@@ -545,7 +545,7 @@ export default function Home() {
                 </div>
 
                 <Image
-                  src="/council-icon/ILO.webp"
+                  src="/council-icon/ilo.webp"
                   alt="ILO Logo"
                   width={80}
                   height={80}
