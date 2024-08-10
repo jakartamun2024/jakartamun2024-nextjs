@@ -11,7 +11,8 @@ import {
 import Link from "next/link";
 import ImageSlider from "./components/navbar/imageslide";
 import ImageSliderMobile from "./components/navbar/imageslide-mobile";
-import { mediaLogos } from './media_logos_constant';
+import { mediaLogos } from "./media_logos_constant";
+import { sponsorLogos } from "./sponsors_constant";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -623,19 +624,67 @@ export default function Home() {
           <ImageSliderMobile />
         </div>
         <h2
-          className={`${poppins.className} text-5xl font-bold mb-8 text-center text-white underline py-10`}
+          className={`${poppins.className} text-5xl font-bold mb-8 text-center text-white underline pt-10`}
+        >
+          Sponsors
+        </h2>
+        <div className="w-1/2 mx-auto bg-gradient-to-br from-[#DF6A26] to-[#f55789] rounded-lg">
+          <div className="flex flex-col h-full gap-5 py-10">
+            <div className="relative h-52">
+              <Image
+                src="/sponsors/LogoLPS_XL/LPS_temp.png"
+                alt="LPS Sponsor Logo"
+                fill
+                className="object-contain"
+              />
+            </div>
+            <div className="relative h-36">
+              <Image
+                src="/sponsors/LogoPGN_M/PGN.png"
+                alt="PGN Sponsor Logo"
+                fill
+                className="object-contain"
+              />
+            </div>
+            <div className="flex flex-row gap-10 justify-center">
+              <div className="relative h-16 w-40">
+                <Image
+                  src="/sponsors/LogoGloby_S/GLOBY.png"
+                  alt="GLOBY Sponsor Logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div className="relative h-14 w-40">
+                <Image
+                  src="/sponsors/LogoBoothycall_S/BOOTHY.png"
+                  alt="BOOTHYCALL Sponsor Logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2
+          className={`${poppins.className} text-5xl font-bold mb-8 text-center text-white underline pt-10`}
         >
           Media Partners
         </h2>
-        <div className="grid grid-cols-2 gap-5 m-5 p-2 bg-gradient-to-br from-[#DF6A26] to-[#f55789] text-black rounded-lg md:grid-cols-4 md:m-10 md:p-5">
-      {mediaLogos.map((logo, index) => (
-        <div key={index} className="flex flex-col h-full">
-          <div className="relative flex flex-col items-center mb-4 h-28">
-            <Image src={logo.src} alt={logo.alt} fill className="object-contain" />
-          </div>
+        <div className="flex flex-wrap justify-center gap-5 m-5 p-2 bg-gradient-to-br from-[#DF6A26] to-[#f55789] text-black rounded-lg md:m-10 md:p-5">
+          {mediaLogos.map((logo, index) => (
+            <div key={index}>
+              <div className="relative mb-4 h-28 w-44">
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
       </div>
     </div>
   );
