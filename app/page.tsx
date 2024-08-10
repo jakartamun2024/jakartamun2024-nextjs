@@ -11,6 +11,7 @@ import {
 import Link from "next/link";
 import ImageSlider from "./components/navbar/imageslide";
 import ImageSliderMobile from "./components/navbar/imageslide-mobile";
+import { mediaLogos } from './media_logos_constant';
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -621,6 +622,20 @@ export default function Home() {
         <div className="md:hidden">
           <ImageSliderMobile />
         </div>
+        <h2
+          className={`${poppins.className} text-5xl font-bold mb-8 text-center text-white underline py-10`}
+        >
+          Media Partners
+        </h2>
+        <div className="grid grid-cols-2 gap-5 m-5 p-2 bg-gradient-to-br from-[#DF6A26] to-[#f55789] text-black rounded-lg md:grid-cols-4 md:m-10 md:p-5">
+      {mediaLogos.map((logo, index) => (
+        <div key={index} className="flex flex-col h-full">
+          <div className="relative flex flex-col items-center mb-4 h-28">
+            <Image src={logo.src} alt={logo.alt} fill className="object-contain" />
+          </div>
+        </div>
+      ))}
+    </div>
       </div>
     </div>
   );
