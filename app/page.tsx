@@ -632,7 +632,7 @@ export default function Home() {
           <div className="flex flex-col h-full gap-5 py-10">
             <div className="relative h-52">
               <Image
-                src="/sponsors/LogoLPS_XL/LPS_temp.png"
+                src="/sponsors/LogoLPS_XL/LPS.png"
                 alt="LPS Sponsor Logo"
                 fill
                 className="object-contain"
