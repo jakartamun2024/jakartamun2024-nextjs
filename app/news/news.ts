@@ -1,50 +1,50 @@
 export const news_list = [
-    {
-        author:"Kobo Kanaeru",
-        title: "[Lesson 2] The real reasons freelancers are underpaid",
-        desc: "In this lesson, we’ll talk a bit about why most freelancers tend to be underpaid (it has to do with presentation), and afterward we’ll analyze the way you’ve presented yourself to clients in the past.",
-        link: "https://doubleyourfreelancing.com/lesson-2-a6t/",
-        image:"/backgrounds/bhi.webp",
-        date:"31 February 2024"
-    },
-    {
-        author:"Kobo Kanaeru",
-        title: "[Lesson 2] The real reasons freelancers are underpaid",
-        desc: "In this lesson, we’ll talk a bit about why most freelancers tend to be underpaid (it has to do with presentation), and afterward we’ll analyze the way you’ve presented yourself to clients in the past.",
-        link: "https://doubleyourfreelancing.com/lesson-2-a6t/",
-        image:"/backgrounds/bhi.webp",
-        date:"31 February 2024"
-    },
-    {
-        author:"Kobo Kanaeru",
-        title: "[Lesson 2] The real reasons freelancers are underpaid",
-        desc: "In this lesson, we’ll talk a bit about why most freelancers tend to be underpaid (it has to do with presentation), and afterward we’ll analyze the way you’ve presented yourself to clients in the past.",
-        link: "https://doubleyourfreelancing.com/lesson-2-a6t/",
-        image:"/backgrounds/bhi.webp",
-        date:"31 February 2024"
-    },
-    {
-        author:"Kobo Kanaeru",
-        title: "[Lesson 2] The real reasons freelancers are underpaid",
-        desc: "In this lesson, we’ll talk a bit about why most freelancers tend to be underpaid (it has to do with presentation), and afterward we’ll analyze the way you’ve presented yourself to clients in the past. ",
-        link: "https://doubleyourfreelancing.com/lesson-2-a6t/",
-        image:"/backgrounds/bhi.webp",
-        date:"31 February 2024"
-    },
-    {
-        author:"Kobo Kanaeru",
-        title: "[Lesson 2] The real reasons freelancers are underpaid",
-        desc: "In this lesson, we’ll talk a bit about why most freelancers tend to be underpaid (it has to do with presentation), and afterward we’ll analyze the way you’ve presented yourself to clients in the past.",
-        link: "https://doubleyourfreelancing.com/lesson-2-a6t/",
-        image:"/backgrounds/bhi.webp",
-        date:"31 February 2024"
-    },
-    {
-        author:"Kobo Kanaeru",
-        title: "[Lesson 2] The real reasons freelancers are underpaid",
-        desc: "In this lesson, we’ll talk a bit about why most freelancers tend to be underpaid (it has to do with presentation), and afterward we’ll analyze the way you’ve presented yourself to clients in the past.",
-        link: "https://doubleyourfreelancing.com/lesson-2-a6t/",
-        image:"/backgrounds/bhi.webp",
-        date:"31 February 2024"
-    },
-]
+  {
+    author: "[Name of Delegate] of the [Agency]",
+    title: "[Title] The real reasons freelancers are underpaid",
+    desc: "[Desc] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum risus ac libero malesuada, at consectetur justo facilisis. Nam vulputate metus a lacus pharetra consectetur. Pellentesque dictum elit in bibendum suscipit. Morbi sit amet ornare tellus.",
+    link: "https://doubleyourfreelancing.com/lesson-2-a6t/",
+    image: "/backgrounds/bhi.webp",
+    date: "[Date] Jun 18",
+  },
+  {
+    author: "[Name of Delegate] of the [Agency]",
+    title: "[Title] The real reasons freelancers are underpaid",
+    desc: "[Desc] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum risus ac libero malesuada, at consectetur justo facilisis. Nam vulputate metus a lacus pharetra consectetur. Pellentesque dictum elit in bibendum suscipit. Morbi sit amet ornare tellus.",
+    link: "https://doubleyourfreelancing.com/lesson-2-a6t/",
+    image: "/backgrounds/bhi.webp",
+    date: "[Date] Jun 18",
+  },
+  {
+    author: "[Name of Delegate] of the [Agency]",
+    title: "[Title] The real reasons freelancers are underpaid",
+    desc: "[Desc] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum risus ac libero malesuada, at consectetur justo facilisis. Nam vulputate metus a lacus pharetra consectetur. Pellentesque dictum elit in bibendum suscipit. Morbi sit amet ornare tellus.",
+    link: "https://doubleyourfreelancing.com/lesson-2-a6t/",
+    image: "/backgrounds/bhi.webp",
+    date: "[Date] Jun 18",
+  },
+  {
+    author: "[Name of Delegate] of the [Agency]",
+    title: "[Title] The real reasons freelancers are underpaid",
+    desc: "[Desc] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum risus ac libero malesuada, at consectetur justo facilisis. Nam vulputate metus a lacus pharetra consectetur. Pellentesque dictum elit in bibendum suscipit. Morbi sit amet ornare tellus. ",
+    link: "https://doubleyourfreelancing.com/lesson-2-a6t/",
+    image: "/backgrounds/bhi.webp",
+    date: "[Date] Jun 18",
+  },
+  {
+    author: "[Name of Delegate] of the [Agency]",
+    title: "[Title] The real reasons freelancers are underpaid",
+    desc: "[Desc] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum risus ac libero malesuada, at consectetur justo facilisis. Nam vulputate metus a lacus pharetra consectetur. Pellentesque dictum elit in bibendum suscipit. Morbi sit amet ornare tellus.",
+    link: "https://doubleyourfreelancing.com/lesson-2-a6t/",
+    image: "/backgrounds/bhi.webp",
+    date: "[Date] Jun 18",
+  },
+  {
+    author: "[Name of Delegate] of the [Agency]",
+    title: "[Title] The real reasons freelancers are underpaid",
+    desc: "[Desc] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum risus ac libero malesuada, at consectetur justo facilisis. Nam vulputate metus a lacus pharetra consectetur. Pellentesque dictum elit in bibendum suscipit. Morbi sit amet ornare tellus.",
+    link: "https://doubleyourfreelancing.com/lesson-2-a6t/",
+    image: "/backgrounds/bhi.webp",
+    date: "[Date] Jun 18",
+  },
+];

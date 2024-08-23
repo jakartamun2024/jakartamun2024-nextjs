@@ -28,12 +28,12 @@ export default function Home() {
   }, [s, aboutRef, grandRef]);
 
   return (
-    <div className=" w-screen overflow-x-hidden">
+    <div className="">
       <nav className="w-screen top-0 z-50">
         <NavBar aboutRef={aboutRef} grandRef={grandRef} />
       </nav>
       <div className="flex items-center justify-center py-36 pb-12">
-        <div className="absolute w-screen h-screen overflow-x-hidden">
+        <div className="absolute h-screen w-full">
           <Image
             src="/backgrounds/scholarship.webp"
             alt="Background Image of Aerial shot of Jakarta"
@@ -51,11 +51,11 @@ export default function Home() {
         </h1>
       </div>
       <div className="items-center justify-center">
-        <div className="absolute min-h-fit bg-[#DF6A26] max-w-screen ">
+        <div className="absolute min-h-fit bg-[#DF6A26]">
           <div
-            className={`min-h-screen w-screen  bg-gradient-to-b from-[#DF6A26] to-[#f55789] z-20 ${poppins.className} text-justify `}
+            className={`h-screen w-screen bg-gradient-to-b from-[#DF6A26] to-[#f55789] z-20 ${poppins.className} text-justify `}
           >
-            <div className="grid grid-cols-1 gap-5 md:grid-cols-3 p-5">
+            <div className="grid grid-cols-1 gap-5 md:grid-cols-2 p-5">
               {news_list.map((news, i) => (
                 <Card
                   key={i}
@@ -68,6 +68,12 @@ export default function Home() {
                 />
               ))}
             </div>
+            {/* <iframe
+              src="https://widgets.sociablekit.com/medium-publication-feed/iframe/25453479"
+              frameBorder="0"
+              width="100%"
+              height="1000"
+            ></iframe> */}
           </div>
         </div>
       </div>
