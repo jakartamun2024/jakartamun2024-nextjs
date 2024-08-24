@@ -32,29 +32,31 @@ export default function Home() {
       <nav className="w-screen top-0 z-50">
         <NavBar aboutRef={aboutRef} grandRef={grandRef} />
       </nav>
-      <div className="flex items-center justify-center py-36 pb-12">
-        <div className="absolute h-screen w-full">
+      <div className="flex items-center justify-center py-8 md:py-36 md:pb-12">
+        <div className="absolute h-1/4 md:h-full w-screen">
           <Image
-            src="/backgrounds/scholarship.webp"
+            src="/backgrounds/yes.webp"
             alt="Background Image of Aerial shot of Jakarta"
             quality={100}
             fill
-            style={{ objectFit: "cover", filter: "brightness(70%)" }}
-            className=""
+            className="object-cover md:object-contain brightness-50"
           />
         </div>
         <h1
           className={`text-4xl md:text-5xl lg:text-7xl text-center text-transparent bg-clip-text bg-gradient-to-b drop-shadow-md from-white to-[#faca6b] font-extrabold my-16`}
           ref={aboutRef}
         >
-          NEWS
+          PRESS CORPS
         </h1>
       </div>
       <div className="items-center justify-center">
         <div className="absolute min-h-fit bg-[#DF6A26]">
           <div
-            className={`h-screen w-screen bg-gradient-to-b from-[#DF6A26] to-[#f55789] z-20 ${poppins.className} text-justify `}
+            className={`h-full w-screen bg-gradient-to-br from-[#DF6A26] to-[#f55774] brightness-90 z-20 ${poppins.className} text-justify `}
           >
+            <h2 className="pl-5 pt-5 text-xl md:text-2xl font-bold underline">
+              Discover published article below:
+            </h2>
             <div className="grid grid-cols-1 gap-5 md:grid-cols-2 p-5">
               {news_list.map((news, i) => (
                 <Card
