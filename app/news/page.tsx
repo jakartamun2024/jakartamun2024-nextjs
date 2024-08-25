@@ -32,7 +32,7 @@ export default function Home() {
       <nav className="w-screen top-0 z-50">
         <NavBar aboutRef={aboutRef} grandRef={grandRef} />
       </nav>
-      <div className="flex items-center justify-center py-8 md:py-36 md:pb-12">
+      <div className="flex items-center justify-center md:py-36 md:pb-12">
         <div className="absolute h-1/4 md:h-full w-screen">
           <Image
             src="/backgrounds/yes.webp"
@@ -52,10 +52,10 @@ export default function Home() {
       <div className="items-center justify-center">
         <div className="absolute min-h-fit bg-[#DF6A26]">
           <div
-            className={`h-full w-screen bg-gradient-to-br from-[#DF6A26] to-[#f55774] brightness-90 z-20 ${poppins.className} text-justify `}
+            className={`min-h-screen h-fit w-screen bg-gradient-to-br from-[#DF6A26] to-[#f55774] brightness-90 z-20 ${poppins.className} text-justify `}
           >
             <h2 className="pl-5 pt-5 text-xl md:text-2xl font-bold underline">
-              Discover published article below:
+              Discover published articles below:
             </h2>
             <div className="grid grid-cols-1 gap-5 md:grid-cols-2 p-5">
               {news_list.map((news, i) => (
@@ -70,12 +70,6 @@ export default function Home() {
                 />
               ))}
             </div>
-            {/* <iframe
-              src="https://widgets.sociablekit.com/medium-publication-feed/iframe/25453479"
-              frameBorder="0"
-              width="100%"
-              height="1000"
-            ></iframe> */}
           </div>
         </div>
       </div>
