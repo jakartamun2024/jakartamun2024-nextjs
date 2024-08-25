@@ -33,7 +33,7 @@ export default function Home() {
         <NavBar aboutRef={aboutRef} grandRef={grandRef} />
       </nav>
       <div className="flex items-center justify-center md:py-36 md:pb-12">
-        <div className="absolute h-1/4 md:h-full w-screen">
+        <div className="absolute h-1/4 md:h-full w-full">
           <Image
             src="/backgrounds/yes.webp"
             alt="Background Image of Aerial shot of Jakarta"
@@ -52,7 +52,7 @@ export default function Home() {
       <div className="items-center justify-center">
         <div className="absolute min-h-fit bg-[#DF6A26]">
           <div
-            className={`min-h-screen h-fit w-screen bg-gradient-to-br from-[#DF6A26] to-[#f55774] brightness-90 z-20 ${poppins.className} text-justify `}
+            className={`min-h-screen h-fit bg-gradient-to-br from-[#DF6A26] to-[#f55774] brightness-90 z-20 ${poppins.className} text-justify `}
           >
             <h2 className="pl-5 pt-5 text-xl md:text-2xl font-bold underline">
               Discover published articles below:
