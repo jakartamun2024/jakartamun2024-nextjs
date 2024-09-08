@@ -628,7 +628,7 @@ export default function Home() {
         >
           Sponsors
         </h2>
-        <div className="w-1/2 mx-auto bg-gradient-to-br from-[#DF6A26] to-[#f55789] rounded-lg">
+        <div className=" mx-5 md:w-1/2 md:mx-auto  bg-gradient-to-br from-[#DF6A26] to-[#f55789] rounded-lg">
           <div className="flex flex-col h-full gap-5 py-10">
             <div className="relative h-52">
               <Image
@@ -638,14 +638,27 @@ export default function Home() {
                 className="object-contain"
               />
             </div>
-            <div className="relative h-36">
-              <Image
-                src="/sponsors/LogoPGN_M/PGN.png"
-                alt="PGN Sponsor Logo"
-                fill
-                className="object-contain"
-              />
+
+            <div className="flex flex-col md:flex-row gap-10 justify-center">
+              <div className="relative h-36 w-2/3 flex flex-row items-center mx-auto md:w-80">
+                <Image
+                  src="/sponsors/LogoPGN_M/PGN.png"
+                  alt="PGN Sponsor Logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+
+              <div className="relative h-36 w-2/3 flex flex-row items-center mx-auto md:w-80">
+                <Image
+                  src="/sponsors/LogoMuseumMandiri_M/Museum mandiri Ukuran M.png"
+                  alt="PGN Sponsor Logo"
+                  fill
+                  className="object-contain text-center"
+                />
+              </div>
             </div>
+
             <div className="flex flex-row gap-10 justify-center">
               <div className="relative h-16 w-40">
                 <Image
